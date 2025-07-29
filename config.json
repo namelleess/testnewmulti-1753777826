@@ -2,7 +2,7 @@
     "en": {
         "styles": {
             "bg": "#34262D",
-            "lang-select-color": "#9f1919",
+            "lang-select-color": "#ffffff",
             "bg-light": "#34262D",
             "welcome-bonus-bg": "#1c1921",
             "top-games-hover-fg": "#F3CF65",
@@ -313,7 +313,7 @@
     "de": {
         "styles": {
             "bg": "#34262D",
-            "lang-select-color": "#9f1919",
+            "lang-select-color": "#ffffff",
             "bg-light": "#34262D",
             "welcome-bonus-bg": "#1c1921",
             "top-games-hover-fg": "#F3CF65",
@@ -370,7 +370,7 @@
             "playNow": "Play Now"
         },
         "hero": {
-            "title": "Welcome Bonus",
+            "title": "Welcome Bonus de",
             "textDesktop": "Exclusive welcome offer of",
             "textMobile": "Exclusive welcome bonus of",
             "playGame": "Play game",
@@ -681,7 +681,7 @@
             "playNow": "Play Now"
         },
         "hero": {
-            "title": "Welcome Bonus",
+            "title": "Welcome Bonus fr",
             "textDesktop": "Exclusive welcome offer of",
             "textMobile": "Exclusive welcome bonus of",
             "playGame": "Play game",
