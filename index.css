@@ -1,0 +1,3402 @@
+.main,
+.wrapper {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+.btn,
+.main,
+.wrapper {
+  position: relative;
+}
+.btn,
+.not-found-title,
+.subtitle,
+.title {
+  font-family: var(--accent-font);
+  font-weight: 900;
+}
+.btn,
+.nav__item,
+.subtitle,
+.title {
+  font-weight: 900;
+}
+.operatorElementGrey,
+.payElementGrey {
+  mix-blend-mode: screen;
+}
+.btn,
+.heroTitle,
+.subtitle,
+.title {
+  text-transform: uppercase;
+}
+.casinoCard,
+.heroTitle,
+.nav__list {
+  letter-spacing: 0;
+}
+.cardName,
+.casinoCard,
+.loader-body,
+.not-found-content {
+  text-align: center;
+}
+.bonusDetailsImage,
+.cardImage {
+  filter: drop-shadow(0 0.125rem 0.125rem rgba(0, 0, 0, 0.75));
+}
+.btn:hover,
+.gameContainer:hover,
+.nav__item:hover {
+  transform: scale(1.1);
+}
+.btn:hover,
+.faqLabel:hover,
+.gradientContainer:hover,
+.moreInfoLabel {
+  cursor: pointer;
+}
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+.btn,
+.btn--large {
+  border-radius: 6.25rem;
+  line-height: 1.6;
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+a {
+  text-decoration: none;
+}
+li,
+ol,
+ul {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+body,
+html {
+  height: 100%;
+  line-height: 1;
+  font-size: 16px;
+  color: var(--text);
+  font-family: var(--base-font);
+  --scroll-behavior: smooth !important;
+  scroll-behavior: smooth !important;
+}
+body.overflow {
+  overflow: hidden;
+}
+.wrapper {
+  min-height: 100%;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+.container {
+  max-width: 90rem;
+  margin: 0 auto;
+}
+.main {
+  flex: 1 1 auto;
+  flex-direction: column;
+  background: var(--main-bg);
+}
+.block {
+  margin: 0 auto;
+  max-width: 70rem;
+  padding: 0;
+}
+.block--not-found {
+  max-width: 100%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  color: var(--text);
+}
+.btn,
+.loader-body {
+  justify-content: center;
+  display: flex;
+}
+.not-found-title {
+  font-size: 4rem;
+  color: var(--link-hover);
+}
+.btn,
+.btn a {
+  color: var(--button-text);
+}
+.not-found-content {
+  font-size: 1.5rem;
+  margin: 0.3125rem;
+}
+.block--not-found button {
+  margin-top: 1.875rem;
+}
+.btn {
+  width: 13.625rem;
+  height: 3.4375rem;
+  -webkit-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+  background: var(--yellow);
+  font-size: 1.25rem;
+  transition: 0.2s;
+  box-shadow:
+    inset 0 0 0 0.125rem transparent,
+    0 0 0 0.125rem transparent;
+}
+.btn--large {
+  width: 17.5rem;
+  height: 5.4375rem;
+  font-size: 1.75rem;
+  gap: 6.25rem;
+  box-shadow:
+    inset 0 0 0 0.1875rem rgba(255, 255, 255, 0),
+    0 0.125rem 0 0 rgba(255, 255, 255, 0);
+  background: var(--yellow-button);
+  color: #fff;
+}
+.btn--medium {
+  width: 13rem;
+  height: 3.25rem;
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+.content,
+.subtitle,
+.title {
+  line-height: 1.39;
+  color: var(--text);
+}
+.btn--small {
+  width: 9.125rem;
+}
+.title {
+  font-size: 3.5rem;
+}
+.title span {
+  color: var(--text);
+}
+.subtitle {
+  font-size: 2.5rem;
+}
+.content {
+  font-family: var(--base-font);
+  font-size: 1.25rem;
+}
+.nav__item,
+.nav__item .nav__link,
+.nav__itemLarge,
+.nav__itemLarge .nav__link {
+  color: var(--text-black);
+}
+.logo {
+  width: 100%;
+  height: auto;
+}
+.heroTitle,
+.nav__item {
+  font-family: var(--accent-font);
+}
+
+.nav__select {
+  background: var(--bg);
+  color: var(--lang-select-color);
+  text-transform: uppercase;
+}
+
+:root {
+  --accent-font: '', '_assets/fonts/1753774931_FiraSansCondensed-Bold.ttf', sans-serif;
+  --base-font: 'Roboto', sans-serif;
+
+  --lang-select-color: #ffffff;
+
+  --bg: #34262D;
+  --bg-light: #34262D;
+  --main-bg: #1c1921;
+  --text: #ffffff;
+  --text-black: #ffffff;
+  --table-head: #34262D;
+  --text-head: #ffffff;
+  --hero-title-text: #ffffff;
+  --yellow: #FF0080;
+  --yellow-button: #FFC300;
+  --welcome-bonus-bg: #1c1921;
+  --button-text: #ffffff;
+  --border-color: #5d5157;
+  --casino-cards: #2B2732;
+  --welcome-bonus-text: #F3CF65;
+  --bonus-border-head: #5d5157;
+  --bonus-border: #5d5157;
+  --pay-back: #2B2732;
+  --providers-back: #2B2732;
+  --faq-label: #2B2732;
+  --bg-footer: #3F2D36;
+  --copyright: #80747a;
+  --link-hover: #ffffff;
+  --icon-color: ;
+  --top-games-hover-fg: #F3CF65;
+}
+.loader-body {
+  width: 100%;
+  height: 100vh;
+  background-color: transparent;
+  align-content: center;
+  transition: 0.5s;
+  align-items: center;
+}
+.header,
+.nav__item {
+  justify-content: center;
+  display: flex;
+}
+.loader__img {
+  width: 7.5rem;
+  height: 7.5rem;
+  transform: scale(1);
+  animation: 2s infinite pulse-black;
+  border-radius: 50%;
+}
+@keyframes pulse-black {
+  0%,
+  100% {
+    transform: scale(0.8);
+    box-shadow: 0 0 0 1.25rem var(--yellow);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0.625rem transparent;
+  }
+}
+.loader {
+  width: 6.25rem;
+  height: 6.25rem;
+  border: 0.75rem solid var(--yellow-button);
+  border-radius: 50%;
+  position: absolute;
+  border-top-color: var(--yellow);
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  -webkit-animation: 1s linear infinite spin;
+  -o-animation: 1s linear infinite spin;
+  animation: 1s linear infinite spin;
+}
+.loader-body.done {
+  visibility: hidden;
+  opacity: 0;
+}
+@keyframes spin {
+  from {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+.header {
+  min-height: 6rem;
+  max-height: 6rem;
+  align-items: center;
+  background: var(--bg);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 3;
+}
+.headerBlock {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 0.625rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 10rem;
+}
+.headerLogoContainer {
+  height: 100%;
+  max-width: 8.75rem;
+  width: 8.75rem;
+  margin-left: 0;
+  display: flex;
+}
+.headerLogoContainer a {
+  margin: auto;
+  width: 100%;
+}
+.header__logo {
+  height: 100%;
+  width: auto;
+}
+.nav__list {
+  display: flex;
+  gap: 1.5rem;
+}
+.nav__item {
+  align-items: center;
+  font-size: 0.875rem;
+  line-height: 1.7;
+  transition: 0.2s;
+  border-radius: 6.25rem;
+  background: var(--yellow);
+  box-sizing: content-box;
+  box-shadow:
+    inset 0 0 0 0.125rem transparent,
+    0 0.125rem 0 0 rgba(255, 255, 255, 0);
+}
+.nav__itemLarge {
+  background: var(--yellow-button);
+  box-shadow:
+    inset 0 0 0 0.125rem rgba(255, 255, 255, 0),
+    0 0.125rem 0 0 rgba(255, 255, 255, 0);
+}
+.nav__item:hover {
+  cursor: pointer;
+}
+.nav__link {
+  padding: 0.75rem 1.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.nav__linkLarge {
+  padding: 0.75rem 4.3125rem;
+}
+@media (max-width: 90rem) {
+  .headerBlock {
+    max-width: 70rem;
+    margin: 0 auto;
+    padding: 1.5rem 0;
+  }
+}
+@media (max-width: 75rem) {
+  .block {
+    padding: 0 2.5rem;
+  }
+  .headerBlock {
+    padding: 1.5rem 3rem 1.5rem 2.7rem;
+  }
+}
+@media (max-width: 64rem) {
+  .headerBlock {
+    padding: 1.5rem 3rem 1.5rem 2.7rem;
+  }
+  .headerLogoContainer {
+    margin-left: 0;
+  }
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-footer);
+}
+.footerContainer {
+  max-width: 90rem;
+  margin: 0 auto;
+  width: 100%;
+}
+.footerTop {
+  padding-top: 1.625rem;
+  padding-bottom: 0.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.footerLogoContainer {
+  position: absolute;
+  top: 0.5rem;
+  left: 10rem;
+}
+.footer__logo {
+  width: 8.75rem;
+  height: auto;
+}
+.footerPay {
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+}
+.payElementGrey {
+  max-height: 2rem;
+  width: auto;
+}
+.payElementColor {
+  display: none;
+  max-height: 2rem;
+  width: auto;
+}
+.bonusDetailsInfo .bonusDetailBlockAdd,
+.heroTextMobile,
+.moreInfoInput,
+.operatorBlock:hover .operatorElementGrey,
+.payBlock:hover .payElementGrey,
+.topCasinoChipsLeftMobile {
+  display: none;
+}
+.faqInput:checked + .faqLabel + .faqContent,
+.heroTextDesktop,
+.operatorBlock:hover .operatorElementColor,
+.payBlock:hover .payElementColor {
+  display: block;
+}
+.footerMiddle,
+.footerOperator {
+  display: flex;
+  justify-content: center;
+}
+.footerMiddle {
+  padding-top: 0.5rem;
+  padding-bottom: 0;
+  width: 100%;
+}
+.footerOperator {
+  max-width: 40.5rem;
+  width: 80%;
+  padding: 0;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.operatorElementColor,
+.operatorElementGrey {
+  max-height: 2rem;
+  width: auto;
+  margin-bottom: 1rem;
+}
+.operatorElementColor {
+  display: none;
+}
+.footerBottom {
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+}
+.footerBottomGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 500;
+}
+.footerBottomAge {
+  font-size: 2rem;
+  line-height: 1.1875;
+  color: var(--copyright);
+}
+.footerBottomCopyright {
+  font-size: 1.25rem;
+  line-height: 2;
+  color: var(--copyright);
+}
+@media (max-width: 86.25rem) {
+  .footerTop {
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .footerLogoContainer {
+    position: static;
+    display: block;
+  }
+  .footer__logo {
+    width: 8.75rem;
+    height: auto;
+  }
+}
+@media (max-width: 64rem) {
+  .footerOperator {
+    width: 60%;
+  }
+  .payElementColor,
+  .payElementGrey {
+    max-height: 1.75rem;
+  }
+  .operatorElementColor,
+  .operatorElementGrey {
+    max-height: 1.5625rem;
+  }
+}
+@media (max-width: 55rem) {
+  .footerOperator {
+    width: 70%;
+  }
+}
+@media (max-width: 48rem) {
+  .not-found-title {
+    font-size: 4rem;
+  }
+  .btn--large,
+  .not-found-content {
+    font-size: 1.25rem;
+  }
+  .btn--large {
+    width: 15rem;
+    height: 4.5rem;
+    gap: 0.625rem;
+    line-height: 1.6;
+    border-radius: 6.25rem;
+    background: var(--yellow-button);
+  }
+  .header {
+    min-height: 6rem;
+    max-height: 6rem;
+  }
+  .headerBlock {
+    padding: 1.5rem 2.5rem 1.5rem 2.3rem;
+  }
+  .headerLogoContainer {
+    max-width: 7.25rem;
+    width: 7.25rem;
+  }
+  .header__logo {
+    height: auto;
+    width: 7.25rem;
+  }
+  .nav__list {
+    gap: 0.5rem;
+  }
+  .nav__item {
+    font-size: 0.625rem;
+    border-radius: 6.25rem;
+  }
+  .nav__link {
+    padding: 0.5rem 1.15625rem;
+  }
+  .nav__linkLarge {
+    padding: 0.5rem 1.75rem;
+  }
+  .footer__logo {
+    width: 5.5rem;
+    height: auto;
+  }
+}
+@media (max-width: 36.25rem) {
+  .footerBottomGroup {
+    gap: 0.625rem;
+  }
+  .footerPay {
+    gap: 0.4rem;
+  }
+  .footerOperator {
+    gap: 0.4rem;
+    width: 80%;
+  }
+  .operatorElementColor,
+  .operatorElementGrey,
+  .payElementColor,
+  .payElementGrey {
+    max-height: 1.375rem;
+  }
+  .footerBottomAge {
+    font-size: 1.625rem;
+  }
+  .footerBottomCopyright {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 36rem) {
+  .btn,
+  .btn--large {
+    border-radius: 6.25rem;
+  }
+  .subtitle,
+  .title {
+    font-weight: 900;
+    font-family: var(--accent-font);
+    word-wrap: break-word;
+  }
+  .btn--large {
+    width: 15rem;
+    height: 4.5rem;
+    gap: 0.625rem;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    background: var(--yellow-button);
+  }
+  .btn--medium {
+    font-size: 1.125rem;
+    line-height: 1.6;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .subtitle {
+    font-size: 1.5rem;
+  }
+  .footerMiddle {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .footerOperator {
+    max-width: 26rem;
+    width: 100%;
+  }
+  .footerBottomGroup,
+  .footerPay {
+    gap: 0.625rem;
+  }
+  .payElementColor,
+  .payElementGrey {
+    max-height: 1.375rem;
+  }
+  .operatorElementColor,
+  .operatorElementGrey {
+    max-height: 1.375rem;
+    margin-bottom: 0.4rem;
+  }
+  .footerBottomAge,
+  .footerBottomCopyright {
+    font-size: 1.125rem;
+    line-height: 1.17;
+    color: var(--copyright);
+  }
+}
+@media (max-width: 30rem) {
+  .footerBottomGroup {
+    gap: 0.1875rem;
+    font-weight: 400;
+  }
+  .payElementColor,
+  .payElementGrey {
+    max-height: 1rem;
+  }
+  .footerBottomAge,
+  .footerBottomCopyright {
+    font-size: 0.75rem;
+  }
+  .footerBottomGroup,
+  .footerPay {
+    gap: 0.5rem;
+  }
+}
+.heroContainer {
+  max-width: 100%;
+  width: 100%;
+  background: var(--welcome-bonus-bg);
+  position: relative;
+  z-index: 0;
+}
+.heroUnder {
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 8.75rem;
+  background: var(--main-bg) no-repeat center bottom/auto 100%;
+}
+.hero,
+.heroButton,
+.heroGroup {
+  z-index: 1;
+  position: relative;
+}
+.hero {
+  max-width: 90rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 8.53125rem 0 8.75rem;
+  background: url("_assets/images/1753775597_welcome.webp") right 10.5rem top 8.5rem /
+    auto 63% no-repeat;
+}
+.heroBlock {
+  position: relative;
+  width: 100%;
+  max-width: 70rem;
+  margin: 0 auto;
+}
+.heroGroup {
+  width: 100%;
+  margin-bottom: 2.53125rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.heroTitle {
+  max-width: 22.75rem;
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 1.5625;
+  color: var(--hero-title-text);
+  text-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+}
+.heroTextGroup {
+  max-width: 70%;
+  margin-bottom: 0;
+}
+.heroText {
+  font-size: 2rem;
+  line-height: 1.1875;
+  min-height: 2.375rem;
+  font-weight: 500;
+  color: var(--text);
+}
+.heroTextBonus {
+  max-width: 50%;
+}
+.heroLink {
+  display: block;
+  width: 18.125rem;
+}
+.heroButton, .gamesButton, .advantagesButton, .bonusDetailsButton, .topCasinoButton {
+  width: 18.125rem;
+  font-size: 1.75rem;
+}
+@media (max-width: 85rem) {
+  .hero {
+    padding: 8.53125rem 0 8.75rem;
+    background: url("_assets/images/1753775597_welcome.webp") right 1rem top 10rem /
+      auto 55% no-repeat;
+  }
+  .heroTextBonus {
+    max-width: 65%;
+  }
+}
+@media (max-width: 64rem) {
+  .hero {
+    padding: 8.53125rem 0 8.75rem;
+    background: url("_assets/images/1753775597_welcome.webp") right 1rem top 10rem /
+      auto 50% no-repeat;
+  }
+  .heroGroup {
+    gap: 2rem;
+  }
+  .heroTextBonus {
+    max-width: 70%;
+  }
+  .heroTitle {
+    max-width: 22.75rem;
+    font-size: 3rem;
+  }
+  .heroText {
+    font-size: 1.5rem;
+    min-height: 1.7rem;
+  }
+}
+@media (max-width: 58.125rem) {
+  .hero {
+    padding: 8.53125rem 0 8.75rem;
+    background: url("_assets/images/1753775597_welcome.webp") right 1rem top 10rem /
+      auto 45% no-repeat;
+  }
+  .heroTextBonus {
+    max-width: 64%;
+  }
+}
+@media (max-width: 48rem) {
+  .heroTextBonus,
+  .heroTextGroup {
+    max-width: 100%;
+  }
+  .heroText,
+  .heroTitle {
+    font-family: var(--accent-font);
+  }
+  .hero {
+    padding: 24.09375rem 0 6.75rem;
+    background: url("_assets/images/1753775597_welcome.webp") center top 6.5rem / auto
+      41% no-repeat;
+  }
+  .heroUnder {
+    height: 4rem;
+  }
+  .heroBlock {
+    text-align: center;
+  }
+  .heroGroup {
+    margin-bottom: 0;
+    gap: 1.45rem;
+    align-items: center;
+  }
+  .heroTextGroup {
+    margin-top: 1.55rem;
+  }
+  .heroTextDesktop {
+    display: none;
+  }
+  .heroTextMobile {
+    display: block;
+  }
+  .heroLink {
+    margin-left: auto;
+    margin-right: auto;
+    width: 16.375rem;
+    position: relative;
+    left: 0;
+  }
+  .heroButton, .gamesButton, .advantagesButton, .bonusDetailsButton, .topCasinoButton {
+    font-size: 1.5rem;
+    width: 16.375rem;
+    height: 4.8125rem;
+  }
+  .heroTitle {
+    max-width: 22.75rem;
+    font-size: 3.5rem;
+    display: none;
+  }
+  .heroText {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    min-height: auto;
+    color: var(--text);
+  }
+}
+.bonusDetailsTitle,
+.sprovidersTitle,
+.topCasinoGroup,
+.topCasinoTitle {
+  margin-bottom: 3rem;
+}
+@media (max-width: 36rem) {
+  .heroBlock,
+  .heroTextGroup {
+    margin-left: 0;
+  }
+  .hero {
+    padding: 24.09375rem 0 6.75rem;
+    background: url("_assets/images/1753775603_welcome.webp") center top 6.5rem / auto
+      41% no-repeat;
+  }
+  .heroBlock {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .heroTitle {
+    margin-left: 2.5rem;
+    margin-top: 0;
+  }
+}
+@media (max-width: 34.375rem) {
+  .hero {
+    padding: 24.75rem 0 6rem;
+    background: url("_assets/images/1753775603_welcome.webp") center top 9.5rem / auto
+      36% no-repeat;
+  }
+  .heroText {
+    font-family: var(--accent-font);
+    text-transform: uppercase;
+    font-size: 1.2rem;
+  }
+  .heroUnder {
+    height: 4rem;
+  }
+}
+@media (max-width: 25.875rem) {
+  .hero {
+    padding: 25rem 0 5rem;
+    background: url("_assets/images/1753775603_welcome.webp") center top 9.2rem / auto
+      35% no-repeat;
+  }
+  .heroGroup {
+    gap: 2rem;
+  }
+  .heroUnder {
+    height: 4rem;
+  }
+  .heroTitle {
+    margin-top: 0;
+    max-width: 22.75rem;
+    font-size: 2.6rem;
+    line-height: 110%;
+  }
+  .heroText {
+    font-size: 1.1rem;
+    line-height: 1.1;
+    min-height: 1.32rem;
+  }
+}
+@media (max-width: 23.4375rem) {
+  .hero {
+    padding: 15rem 0 3rem;
+    background: url("_assets/images/1753775603_welcome.webp") center top 6.5rem / auto
+      31% no-repeat;
+  }
+  .heroGroup {
+    gap: 1rem;
+  }
+  .heroUnder {
+    height: 2rem;
+  }
+  .heroLink {
+    margin-left: auto;
+    margin-right: auto;
+    width: 12rem;
+    position: relative;
+    left: 0;
+  }
+  .heroTitle {
+    margin-top: 0;
+    max-width: 22.75rem;
+    font-size: 2.6rem;
+    line-height: 110%;
+  }
+  .heroText {
+    font-size: 0.8rem;
+    line-height: 1;
+    min-height: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .heroButton, .gamesButton, .advantagesButton, .bonusDetailsButton, .topCasinoButton {
+    font-size: 1rem;
+    line-height: 1;
+    width: 12rem !important;
+    height: 3rem;
+
+    margin 0 auto;
+  }
+}
+.cardBonus,
+.cardName,
+.cardWelcome {
+  max-width: 100%;
+}
+.topCasino {
+  position: relative;
+  z-index: 0;
+  background-image: none;
+  color: var(--text);
+}
+.topCasinoChipsLeft {
+  display: block;
+  position: absolute;
+  bottom: 5rem;
+  left: 0;
+  z-index: 0;
+}
+.topCasinoBlock {
+  padding-top: 0;
+  position: relative;
+  z-index: 1;
+}
+.topCasinoGroup {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.6625rem;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+.cardBonus,
+.cardWelcome {
+  margin: auto;
+  font-family: var(--base-font);
+}
+.sgradientContainer,
+.tcgradientContainer {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  padding: 0;
+  background: 0 0;
+}
+.bonusTableRowContainer::before,
+.gggradientContainer::before,
+.pygradientContainer::before,
+.sgradientContainer::before,
+.tcgradientContainer::before {
+  content: "";
+  position: absolute;
+  top: -0.125rem;
+  left: -0.125rem;
+  right: -0.125rem;
+  bottom: -0.125rem;
+  background: 0 0;
+  z-index: -1;
+  border-radius: 0.5rem;
+}
+.casinoCard {
+  width: 16.25rem;
+  height: auto;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background: var(--casino-cards);
+  border-radius: 0.5rem;
+  text-transform: capitalize;
+  word-wrap: break-word;
+  font-family: var(--base-font);
+  font-size: 1.25rem;
+  line-height: 1.2;
+}
+.cardButton,
+.cardButton span {
+  width: 12.625rem;
+}
+.cardBonusText {
+  font-family: var(--base-font);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.cardWelcome {
+  color: var(--welcome-bonus-text);
+  font-size: 1.5rem;
+  line-height: 1.17;
+}
+.cardBonus {
+  font-size: 1.25rem;
+  line-height: 1.15;
+}
+.cardImage {
+  margin-top: 0;
+  justify-self: flex-start;
+}
+.cardName {
+  font-family: var(--base-font);
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.2;
+}
+.gamePlayText,
+.gameTitle {
+  font-family: var(--base-font);
+  font-weight: 500;
+}
+.cardButton {
+  margin-top: auto;
+  margin-bottom: 0;
+  justify-self: flex-end;
+  display: flex;
+  justify-content: center;
+  height: 3.5rem;
+}
+.topCasinoButton {
+  width: 17.5rem;
+  margin: 0 auto;
+}
+@media (max-width: 75rem) {
+  .topCasinoGroup {
+    justify-content: center;
+  }
+}
+@media (max-width: 64.375rem) {
+  .topCasino {
+    background-image: none;
+  }
+  .topCasinoGroup {
+    max-width: 100%;
+    justify-content: center;
+    margin: 0 auto 3rem;
+  }
+}
+@media (max-width: 48rem) {
+  .topCasinoGroup {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    max-width: 100%;
+    margin: 0 0 2.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+  .casinoCard {
+    width: 100%;
+  }
+}
+@media (max-width: 36rem) {
+  .casinoCard,
+  .tcgradientContainer::before {
+    border-radius: 0.5rem;
+  }
+  .topCasinoBlock {
+    width: 100%;
+    padding-top: 1rem;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .cardName,
+  .topCasinoChipsLeft {
+    display: none;
+  }
+  .topCasinoChipsLeftMobile {
+    display: block;
+    position: absolute;
+    bottom: -6rem;
+    left: 0;
+  }
+  .topCasinoTitle {
+    max-width: 18.75rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+  .casinoCard {
+    padding: 1rem 1.03125rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 1rem;
+  }
+  .cardImage {
+    margin-top: 0;
+    max-width: 10rem;
+    width: 10rem;
+    height: 4rem;
+  }
+  .cardBonusText {
+    gap: 0.5rem;
+  }
+  .cardWelcome {
+    font-size: 1.5rem;
+    line-height: 1.17;
+  }
+  .cardBonus {
+    font-size: 1rem;
+    line-height: 1.1875;
+    max-width: 70%;
+  }
+  .cardButton,
+  .cardButton span {
+    max-width: 12.5rem;
+    width: 12.5rem;
+  }
+  .cardButton {
+    padding: 0;
+    height: 3.375rem;
+    font-size: 1.125rem;
+    line-height: 1;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+  }
+}
+@media (max-width: 33.125rem) {
+  .topCasinoGroup {
+    grid-template-columns: 1fr;
+  }
+  .cardBonus {
+    max-width: 100%;
+  }
+}
+.bonus .bonusDetails
+{
+  position: relative;
+  background-image: none;
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+.bonusChipsRight {
+  display: block;
+  position: absolute;
+  top: -8rem;
+  right: 0;
+}
+.bonusDetailsBlock,
+.gamesBlock,
+.sprovidersBlock {
+  padding-top: 8.75rem;
+  padding-bottom: 8.75rem;
+}
+.bonusTable {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+.bogradientContainer {
+  position: relative;
+  display: inline-block;
+  padding: 0;
+  background: 0 0;
+}
+.bonusTableHeader,
+.bonusTableRowContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 12.875rem repeat(5, 1fr);
+  font-size: 1.25rem;
+  border-radius: 0.5rem;
+}
+.bogradientContainer::before {
+  content: "";
+  position: absolute;
+  top: -0.0625rem;
+  left: -0.0625rem;
+  right: -0.0625rem;
+  bottom: -0.0625rem;
+  background: 0 0;
+  z-index: -1;
+  border-radius: 0.5rem;
+}
+.bonusTableHeader {
+  row-gap: 1.5rem;
+  line-height: 2;
+}
+.bonusTableRowContainer {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  position: relative;
+}
+#paymentRowsContainer,
+#bonusTableRows {
+  display: flex;
+  flex-direction: column;
+  gap: 1.0rem;
+}
+.bonusTableRow.bonusTableHeader {
+  background: var(--table-head);
+}
+.bonusDetailsWelcome {
+  width: 15rem !important;
+}
+.bonusTableRow > div:not(.bonusDetailsInfo) {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.bonusTableRow:not(.bonusTableHeader) > div:not(.bonusDetailsInfo) {
+  background: var(--casino-cards);
+  color: var(--text);
+}
+.bonusDetailsImage,
+.bonusDetailsText,
+.moreInfoLabel {
+  border-right: 0.0625rem solid var(--bonus-border);
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  min-height: 3.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bonusDetailBlock .bonusDetailsText,
+div.bonusTableHead:nth-child(6) p {
+  border-right: none;
+}
+.bonusDetailsContainer .bonusDetailsText {
+  border-right: 0.0625rem solid var(--bonus-border);
+  justify-content: flex-start;
+  height: 2.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  min-height: auto;
+}
+.bonusDetailsContent {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.bonusTableRow.bonusTableHeader > div.bonusTableHead {
+  font-size: 1.5rem;
+  line-height: 1.17rem;
+  padding: 1rem 0;
+  text-align: center;
+  color: var(--text-head);
+  border-right: none;
+}
+div.bonusTableHead p {
+  width: 100%;
+  border-right: 0.0625rem solid var(--bonus-border-head);
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1.2rem;
+  line-height: 1.17;
+}
+.bonusTableRow div.bonusDetailsInfo {
+  background: 0 0;
+}
+.bonusDetailsInfo {
+  margin-top: 0.1rem;
+  grid-column-start: 1;
+  grid-column-end: 7;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.bonusDetailsInfo .bonusDetailBlock {
+  display: grid;
+  grid-template-columns: 12.875rem 5fr;
+  border-bottom: 0.0625rem solid var(--bonus-border);
+  font-size: 1.25rem;
+  line-height: 2;
+  color: var(--text);
+}
+.bonusDetailBlock p {
+  padding: 0 1rem;
+  width: 100%;
+}
+.moreInfoLabel {
+  display: flex;
+  transition: 0.5s;
+}
+.bonusTableRow.bonusTableHeader > div.bonusTableHead .bonusClaimBonus {
+  width: 16.2rem;
+}
+.bonusButton-deposit {
+    background: var(--yellow);
+    width: 10.5rem;
+    height: 3.25rem;
+    font-size: 1.25rem;
+    line-height: 1.2;
+}
+.bonusButton {
+  width: 13.5625rem;
+  height: 3.5rem;
+  background: var(--yellow);
+  margin-left: 1.71875rem;
+  margin-right: 1rem;
+}
+div:has(.moreInfoInput + .moreInfoLabel) ~ .bonusDetailsInfo {
+  display: none;
+}
+div:has(.moreInfoInput:checked + .moreInfoLabel) ~ .bonusDetailsInfo {
+  display: grid;
+}
+.bonusDetailsButton {
+  margin: 0 auto;
+}
+@media (max-width: 65.625rem) {
+  .bonusTableRow.bonusTableHeader > div.bonusTableHead .bonusClaimBonus {
+    width: 15rem;
+  }
+  .bonusButton {
+    margin-left: 1rem;
+    width: 13rem;
+  }
+}
+@media (max-width: 64.375rem) {
+  .bonusDetailsInfo,
+  .bonusTableRowContainer {
+    grid-column-start: 1;
+    grid-column-end: 6;
+  }
+  .bonusDetails {
+    background-image: none;
+  }
+  .bonusTable {
+    font-size: 1rem;
+  }
+  .bonusTableHeader,
+  .bonusTableRowContainer {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .bonusTableHeader > div:nth-child(2),
+  .bonusTableRowContainer > div:nth-child(2) {
+    display: none;
+  }
+  .bonusDetailsInfo .bonusDetailBlock {
+    line-height: 1.2;
+    grid-template-columns: 11.25rem 4fr;
+  }
+  .bonusDetailsInfo {
+    margin-top: 0.5rem;
+  }
+  .bonusDetailsImage {
+    min-width: 6.25rem;
+    height: auto;
+    min-height: auto;
+  }
+  .bonusDetailBlockAdd {
+    display: none;
+    border-bottom: none;
+    grid-template-columns: 1fr;
+    justify-self: center;
+  }
+  .bonusDetailsPicture,
+  .bonusHeaderCasino {
+    min-width: 11.25rem;
+  }
+}
+@media (max-width: 48rem) {
+  .bonusDetailsInfo,
+  .bonusTableRowContainer {
+    grid-column-start: 1;
+    grid-column-end: 5;
+  }
+  .bonusDetailsBlock {
+    padding-top: 7.5rem;
+    padding-bottom: 6rem;
+  }
+  .bogradientContainer::before,
+  .bonusTableHeader,
+  .bonusTableRowContainer,
+  .bonusTableRowContainer::before {
+    border-radius: 0.5rem;
+  }
+  .bonusTableHeader > div:nth-child(6),
+  .bonusTableRowContainer > div:nth-child(6) {
+    display: none;
+  }
+  .bonusTable {
+    font-size: 1.125rem;
+    gap: 1.5rem;
+  }
+  .bonusTableHeader,
+  .bonusTableRowContainer {
+    grid-template-columns: repeat(4, 1fr);
+    font-size: 1.125rem;
+    row-gap: 1.5rem;
+  }
+  .bonusDetailBlock {
+    grid-template-columns: 11rem 3fr;
+  }
+  .bonusDetailsImage,
+  .bonusDetailsText,
+  .moreInfoLabel {
+    border-right: none;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    min-height: 4rem;
+  }
+  .bonusDetailsRate {
+    border-left: 0.0625rem solid var(--bonus-border);
+  }
+  .bonusTableRow > div:not(.bonusDetailsInfo) {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .bonusDetailsPicture,
+  .bonusHeaderCasino {
+    min-width: 11rem;
+  }
+  .bonusDetailsImage {
+    height: auto;
+    min-height: auto;
+  }
+  .bonusDetailsContainer .bonusDetailsText {
+    border-right: 0.0625rem solid var(--bonus-border);
+    justify-content: flex-start;
+    height: auto;
+    min-height: unset;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .bonusTableRow.bonusTableHeader > div.bonusTableHead {
+    font-size: 1.125rem;
+    line-height: 1.17;
+    padding: 0.5rem 0;
+    text-align: center;
+    color: var(--text-head);
+    border-right: none;
+  }
+  div.bonusTableHead p {
+    border-right: none;
+    height: 3.625rem;
+  }
+  .bonusTableHead > .bonusHeaderCasino {
+    border-right: 0.0625rem solid var(--bonus-border-head);
+  }
+  .bonusDetailsInfo {
+    margin-top: 1rem;
+  }
+  .bonusDetailsInfo .bonusDetailBlock {
+    grid-template-columns: 11rem 5fr;
+  }
+  .bonusDetailsInfo .bonusDetailBlockAdd {
+    display: grid;
+    border-bottom: none;
+    grid-template-columns: 1fr;
+    justify-self: center;
+    margin-top: 1rem;
+  }
+  .bonusDetailBlock p {
+    padding: 0.5rem 0.625rem 0.5rem 0.5rem;
+    font-size: 1.125rem;
+    line-height: 1.5;
+  }
+  .bonusDetailsInfo .bonusDetailBlockAdd span {
+    font-size: 1rem;
+    line-height: 1;
+  }
+  .bonusDetailsInfo .bonusDetailBlock .bonusButton {
+    max-width: 12.75rem;
+    width: 12.75rem;
+    padding: 0;
+    height: 3.375rem;
+    font-size: 1.125rem;
+    line-height: 1.39;
+  }
+}
+.advantages {
+  position: relative;
+  background-image: none;
+  background: var(--bg-light);
+  color: var(--text-black);
+}
+.bonusChipsRightMobile,
+.faqInput,
+.faqInput + .faqLabel + .faqContent,
+.gamesChipsLeftMobile,
+.payMethodGroupTwo,
+.paymentChipsMobile {
+  display: none;
+}
+.advantagesBlock {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  width: 100%;
+}
+.advantagesDescription {
+  width: 28rem;
+  border-right: 0.125rem solid var(--border-color);
+  padding-right: 2rem;
+}
+.advantagesTitle {
+  margin-bottom: 2.5rem;
+  color: var(--text-black);
+  font-size: 2.5rem;
+}
+.advantagesAppTitle {
+  margin-bottom: 3rem;
+  max-width: 21.375rem;
+}
+.advantagesList {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+.advantagesItem {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.advantagesText {
+  font-size: 1.5rem;
+  line-height: 1.17;
+  max-width: 90%;
+  word-wrap: break-word;
+}
+.advantagesLink {
+  display: block;
+  width: 17.5rem;
+}
+.advantagesButton {
+  width: 17.5rem;
+  max-height: 5.152rem;
+}
+.advantagesMobile {
+  width: 45rem;
+  padding-left: 2rem;
+  text-align: left;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.advantagesMobilePhone {
+  position: absolute;
+  top: -1rem;
+  right: -4.5rem;
+  max-width: 90%;
+  height: auto;
+  margin-bottom: 2.5rem;
+}
+.advantagesStoreGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-self: flex-start;
+}
+@media (max-width: 87.5rem) {
+  .advantagesMobilePhone {
+    right: -4rem;
+  }
+}
+@media (max-width: 78.125rem) {
+  .advantagesBlock {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+  .advantagesMobilePhone {
+    right: -3rem;
+    max-width: 70%;
+  }
+}
+@media (max-width: 64rem) {
+  .advantages {
+    position: relative;
+  }
+  .advantagesStoreGroup {
+    flex-direction: column;
+  }
+  .advantagesMobilePhone {
+    position: static;
+    max-width: 90%;
+    height: auto;
+    margin-bottom: 2.5rem;
+  }
+}
+@media (max-width: 58.125rem) {
+  .advantages {
+    position: relative;
+    color: var(--text-black);
+  }
+  .advantagesBlock {
+    flex-direction: column-reverse;
+    gap: 5rem;
+  }
+  .advantagesDescription {
+    width: 100%;
+    border-right: none;
+    padding-right: 0;
+  }
+  .advantagesStoreGroup {
+    flex-direction: row;
+    align-self: center;
+  }
+  .advantagesMobile {
+    width: 100%;
+    padding-left: 0;
+  }
+  .advantagesMobilePhone {
+    max-width: 80%;
+    height: auto;
+    align-self: center;
+  }
+  .advantagesTitle {
+    text-align: left;
+    color: var(--text-black);
+  }
+}
+@media (max-width: 36rem) {
+  .bonusChipsRight {
+    display: none;
+  }
+  .bonusDetailsInfo .bonusDetailBlockAdd {
+    justify-self: flex-end;
+    padding: 0;
+  }
+  .bonusDetailsInfo .bonusDetailBlockAdd span {
+    margin: 0;
+  }
+  .bonusDetailsButton {
+    margin-left: auto;
+  }
+  .bonusTableRow .bonusTableHead .bonusHeaderTextSpins {
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+  }
+  .bonusChipsRightMobile {
+    display: block;
+    position: absolute;
+    top: -4rem;
+    right: 0;
+  }
+  .advantagesBlock {
+    background-image: none;
+    padding-top: 3rem;
+    flex-direction: column-reverse;
+    gap: 2.5rem;
+  }
+  .advantagesDescription {
+    padding: 1.5rem;
+  }
+  .advantagesMobile {
+    width: 100%;
+    padding: 1.5rem;
+    margin-bottom: 0;
+  }
+  .advantagesButton,
+  .advantagesLink {
+    margin-left: auto;
+    margin-right: auto;
+    width: 15.5625rem;
+  }
+  .advantagesAppTitle,
+  .advantagesTitle {
+    color: var(--text-black);
+    margin-bottom: 1.5rem;
+    max-width: 100%;
+  }
+  .advantagesTitle {
+    text-align: left;
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+  .advantagesText {
+    font-size: 1.125rem;
+    line-height: 1.17;
+  }
+  .advantagesList {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 4rem;
+  }
+  .advantagesLink {
+    max-width: 15.5625rem;
+  }
+  .advantagesStoreGroup {
+    flex-direction: row;
+    align-self: center;
+  }
+  .advantagesMobilePhone {
+    position: static;
+    max-width: 48%;
+    width: 48%;
+    align-self: center;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 2rem;
+  }
+  .bonusesCircleContainer {
+    background: 0 0;
+  }
+}
+.bonusesCircleContainer {
+  background: 0 0;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  width: 100%;
+}
+.games {
+  background: 0 0;
+  position: relative;
+}
+.gamesTitle {
+  margin-bottom: 3rem;
+  margin-left: 0;
+}
+.gamesGroup {
+  display: grid;
+  max-width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 1.3125rem;
+  grid-row-gap: 1.5rem;
+  justify-items: center;
+  margin-bottom: 3rem;
+}
+.gggradientContainer {
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  padding: 0;
+  background: 0 0;
+}
+.gameDescription,
+.playBlock {
+  justify-content: center;
+  display: flex;
+}
+.gameDescription {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s ease-in-out;
+  color: var(--top-games-hover-fg);
+  background: var(--casino-cards);
+  width: 16.5rem;
+  height: 8.875rem;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0.625rem;
+  border-radius: 0.5rem;
+}
+.gamesButton,
+.gamesLink {
+  width: 17.5rem;
+}
+.gameImage {
+  border-radius: 0.5rem;
+}
+.playBlock {
+  align-items: center;
+  gap: 0.5rem;
+}
+.gameContainer {
+  transition: 0.2s;
+  position: relative;
+  border-radius: 0.5rem;
+}
+.gameContainer:hover .gggradientContainer {
+  opacity: 1;
+}
+.gamePlayLink {
+  display: flex;
+  gap: 0.875rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.625rem;
+  line-height: 1.875rem;
+  font-weight: 500;
+}
+.gameTitle {
+  text-align: center;
+  word-break: break-word;
+  font-size: 2rem;
+  line-height: 1.1875;
+}
+.gamePlayText {
+  display: block;
+  font-size: 1.5rem;
+  line-height: 1.17;
+}
+.connectSubtitle,
+.connectTitle,
+.depositTitle,
+.history,
+.historySubtitle,
+.historyTitle {
+  color: var(--text-black);
+}
+.gamesLink {
+  display: block;
+  margin: 0 auto;
+}
+@media (max-width: 75rem) {
+  .bonusDetailsBlock {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+  .bonusDetailsWelcome {
+    width: 13rem !important;
+  }
+  .gameDescription,
+  .gameImage {
+    width: 13.75rem;
+    height: 7.375rem;
+  }
+  .gamesBlock {
+    padding: 8.75rem 2.5rem;
+  }
+  .gamesTitle {
+    margin-left: 0;
+  }
+  .gameDescription {
+    gap: 0.5rem;
+    padding: 0.5rem;
+  }
+  .gameTitle {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 64rem) {
+  .gameDescription,
+  .gameImage {
+    width: 15rem;
+    height: 8rem;
+  }
+  .gamesGroup {
+    max-width: 100%;
+    grid-template-columns: repeat(2, 15.625rem);
+    justify-content: center;
+  }
+  .gameDescription {
+    gap: 0.5rem;
+    padding: 0.5rem;
+  }
+}
+@media (max-width: 32.5rem) {
+  .headerLogoContainer,
+  .header__logo {
+    max-width: 5.8rem;
+    width: 5.8rem;
+  }
+  .nav__list {
+    flex-direction: row;
+    align-items: center;
+  }
+  .nav__item {
+    display: none;
+  }
+  .nav__itemLarge {
+    display: flex;
+  }
+  .header__logo {
+    height: auto;
+  }
+  .footer__logo {
+    width: 5.5rem;
+    height: auto;
+  }
+  .gamesGroup {
+    grid-template-columns: repeat(1, 15.625rem);
+  }
+}
+.applicationCircleContainer,
+.historyCircleContainer,
+.paymentCircleContainer {
+  background: var(--bg-light);
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  width: 100%;
+}
+.history,
+.payMethod {
+  background-image: none;
+}
+.history {
+  position: relative;
+}
+.historyBlock {
+  padding-top: 4rem;
+  position: relative;
+  z-index: 1;
+  font-size: 1.25rem;
+  line-height: 2;
+}
+.historyTitle {
+  margin-bottom: 1.5rem;
+  margin-top: 0;
+}
+.historySubtitle {
+  margin-bottom: 2.5rem;
+  margin-top: 2.5rem;
+}
+.applicationDescriptionTwo,
+.bonusesDescriptionNext,
+.depositDescriptionLast,
+.historyDescription,
+.idiomasDescriptionTwo,
+.providersDescriptionTwo {
+  margin-top: 1.5rem;
+}
+.historyGroup {
+  display: flex;
+  gap: 4.75rem;
+}
+.depositColumn,
+.historyColumn,
+.supportColumn {
+  flex-basis: 50%;
+}
+.historyColumn:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+}
+.historyText {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  max-width: 33rem;
+}
+.historyList {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.5rem;
+}
+.connectItem,
+.historyItem,
+.supportItem {
+  word-wrap: break-word;
+  list-style: disc inside;
+}
+.historyImage {
+  position: absolute;
+  top: calc(9.5rem + 0rem);
+  left: calc(-3rem + 0rem);
+  max-width: calc(133% + 0%);
+  width: calc(133% + 0%);
+  height: auto;
+}
+.historySecondTitle {
+  margin-top: 5rem;
+}
+@media (max-width: 88.125rem) {
+  .historyImage {
+    position: absolute;
+    top: calc(5rem + 0rem);
+    left: calc(-4rem + 0rem);
+    max-width: calc(115% + 0%);
+    width: calc(115% + 0%);
+    height: auto;
+  }
+}
+.connectGroup,
+.connectList {
+  flex-direction: column;
+  display: flex;
+}
+@media (max-width: 36rem) {
+  .gameTitle,
+  .gamesLink span {
+    margin 0 auto;
+  }
+  .gamesBlock {
+    padding-top: 7rem;
+    padding-bottom: 6rem;
+  }
+  .gameContainer,
+  .gameDescription,
+  .gameImage,
+  .gggradientContainer::before {
+    border-radius: 0.5rem;
+  }
+  .gamesGroup {
+    grid-column-gap: 0.5rem;
+    grid-row-gap: 1.3rem;
+    justify-items: center;
+    margin-bottom: 2rem;
+  }
+  .gameDescription,
+  .historyText {
+    gap: 1rem;
+  }
+  .gamePlayText {
+    font-size: 1.125rem;
+  }
+  .gamesLink {
+    margin-left: auto;
+    width: 15rem;
+  }
+  .historyCircleContainer {
+    background: var(--bg-light);
+  }
+  .historyBlock {
+    padding-top: 2.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    font-size: 1.125rem;
+    line-height: 1.78;
+  }
+  .historyTitle {
+    max-width: 70%;
+    margin-bottom: 2.5rem;
+  }
+  .historyList {
+    margin-top: 1rem;
+  }
+}
+.connectDescriptionLast,
+.connectList,
+.depositDescription,
+.supportDescription {
+  margin-bottom: 1.5rem;
+}
+.connect,
+.deposit,
+.idiomas,
+.providers {
+  background-image: none;
+  color: var(--text-black);
+}
+.connectBlock {
+  padding-top: 3rem;
+}
+.connectTitle,
+.depositTitle {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+}
+.connectSubtitle {
+  font-size: 2.5rem;
+  margin-top: 1.5rem;
+}
+.connectGroup {
+  gap: 1rem;
+  font-size: 1.25rem;
+  line-height: 2;
+}
+.depositBlock,
+.idiomasBlock {
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+.depositGroup,
+.idiomasGroup {
+  display: flex;
+  gap: 4rem;
+  font-size: 1.25rem;
+  line-height: 2;
+}
+.depositList {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.applicationItem,
+.availableGamesItem,
+.bonusesItem,
+.depositItem,
+.providersItem {
+  list-style: disc;
+  margin-left: 1rem;
+}
+@media (max-width: 84.375rem) {
+  .deposit {
+    background-image: none;
+  }
+  .depositGroup {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .depositColumn {
+    flex-basis: 100%;
+  }
+}
+.payMethod {
+  position: relative;
+}
+.payMethodBlock {
+  padding-top: 8.75rem;
+  padding-bottom: 8rem;
+}
+.payMethodTitle {
+  margin-bottom: 3rem;
+  font-size: 3.5rem;
+  line-height: 1;
+}
+.payMethodGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+.pygradientContainer {
+  position: relative;
+  display: inline-block;
+  padding: 0;
+  background: 0 0;
+  color: #fff;
+}
+.payMethodRow {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  row-gap: 1rem;
+  font-size: 1.25rem;
+  line-height: 2;
+  font-weight: 500;
+  border-radius: 0.5rem;
+}
+.payMethodItem {
+  margin: 0.5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.payMethodItemContent,
+.payMethodRow > .payMethodItem:first-child,
+.payMethodRow > .payMethodItem:last-child {
+  justify-content: center;
+}
+.payMethodItemContent {
+  border-right: 0.0625rem solid transparent;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.payMethodRow:first-child > .payMethodItem .payMethodItemContent,
+.payMethodRow > .payMethodItem:nth-child(7) {
+  border: none;
+}
+.payMethodRowHeader {
+  background: var(--table-head);
+  height: 3.75rem;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.17;
+  color: var(--text-head);
+}
+.payMethodRow:first-child > .payMethodItem {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.payMethodRowContent {
+  background: var(--pay-back);
+  color: var(--text);
+  border-radius: 0.5rem;
+}
+.payMethodRowContent > .payMethodItem:not(:last-child) {
+  border-right: 0.0625rem solid var(--bonus-border-head);
+}
+.payMethodGroupTwo .payMethodItemDeposit,
+.payMethodGroupTwo .payMethodItemImage {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  justify-content: center;
+}
+.payMethodMethod {
+  min-width: 7.625rem;
+}
+.payMethod .payMethodItemWide {
+  min-width: 9.375rem;
+  text-align: center;
+}
+.payMethodItemDeposit {
+  width: 12rem;
+}
+.payMethodLink {
+  width: 12rem;
+}
+.payMethodImage {
+  filter: drop-shadow(0.0625rem 0.0625rem 0.125rem rgba(0, 0, 0, 0.75));
+}
+@media (max-width: 76.25rem) {
+  .payMethod .payMethodItemWide {
+    min-width: unset;
+  }
+  .payMethodItemDeposit {
+    width: 8rem;
+    margin: auto;
+    text-align: center;
+  }
+  .payMethodLink {
+    display: block;
+    width: 7rem;
+  }
+  .bonusButton-deposit {
+    background: var(--yellow);
+    width: 7rem;
+    height: 3.25rem;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    margin: auto;
+  }
+}
+@media (max-width: 56.25rem) {
+  .payMethodRow {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 48rem) {
+  .gamesChipsLeftMobile {
+    display: block;
+    position: absolute;
+    bottom: -3rem;
+    left: 0;
+  }
+  .payMethod {
+    background-image: none;
+  }
+  .payMethodTitle {
+    margin-bottom: 2.5rem;
+    font-size: 2rem;
+    line-height: 1;
+  }
+  .payMethodGroup {
+    display: none;
+  }
+  .bonusButton-deposit {
+    background: var(--yellow);
+    width: 12.5rem;
+    height: 3.125rem;
+    font-size: 1.125rem;
+    line-height: 1;
+  }
+  .payMethodGroupTwo {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    font-size: 0.875rem;
+    line-height: 1.14;
+    font-weight: 500;
+    row-gap: 1rem;
+  }
+  .payMethodCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .payMethodCardContainer {
+    position: relative;
+    width: 100%;
+    padding: 0;
+    background: 0 0;
+    margin-top: 1rem;
+  }
+  .payMethodCardContainer::before {
+    content: "";
+    position: absolute;
+    top: -0.125rem;
+    left: -0.125rem;
+    right: -0.125rem;
+    bottom: -0.125rem;
+    background: 0 0;
+    z-index: -1;
+    border-radius: 0.5rem;
+  }
+  .payMethodCardPicture {
+    background: var(--table-head);
+    border-radius: 0.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  .payMethodCardImage {
+    width: auto;
+    height: 4rem;
+    margin-left: 1rem;
+    filter: drop-shadow(0.0625rem 0.0625rem 0.125rem rgba(0, 0, 0, 1));
+  }
+  .payMethodCardGroup:first-child .payMethodCardImage {
+    filter: drop-shadow(0.0625rem 0.0625rem 0.125rem rgba(0, 0, 0, 0.75));
+  }
+  .payMethodCardDescription {
+    background: var(--pay-back);
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 1.125rem;
+    line-height: 1.17;
+  }
+  .payMethodCardBlock {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 0.2rem;
+    border-top: 0.0625rem solid rgba(0, 0, 0, 0.2);
+    border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.2);
+    padding: 0.5rem;
+  }
+  .payMethodCardBlock:nth-child(1n) {
+    border-top: none;
+  }
+  .payMethodCardBlock:nth-child(5n) {
+    border-bottom: none;
+  }
+  .payMethodCardText {
+    color: var(--text);
+  }
+  .payMethodCardItem {
+    color: var(--link-hover);
+  }
+}
+.application,
+.applicationTitle,
+.idiomasTitle,
+.providersTitle {
+  color: var(--text-black);
+}
+@media (max-width: 28.125rem) {
+  .payMethodCardPicture {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .payMethodCardImage {
+    margin-left: 0;
+  }
+}
+.providersBlock {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.providersTitle {
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+}
+.providersGroup {
+  display: flex;
+  gap: 3rem;
+  font-size: 1.25rem;
+  line-height: 2;
+}
+.idiomasColumn,
+.providersColumn {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.idiomasList,
+.providersList {
+  margin: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+}
+.sprovidersGroup {
+  display: grid;
+  grid-template-columns: repeat(6, 10.75rem);
+  grid-column-gap: 1.1rem;
+  grid-row-gap: 1rem;
+  justify-content: center;
+}
+.sprovidersContainer {
+  width: 10.75rem;
+  height: 5.5rem;
+  padding: 0 0.625rem;
+  border-radius: 0.5rem;
+  background: var(--providers-back);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sprovidersImage {
+  width: 100%;
+  height: auto;
+  max-height: auto;
+  filter: drop-shadow(0 0.0625rem 0.0625rem rgba(0, 0, 0, 0.75));
+}
+@media (max-width: 75rem) {
+  .sprovidersGroup {
+    grid-template-columns: repeat(5, 10.75rem);
+  }
+}
+@media (max-width: 64rem) {
+  .history,
+  .providers {
+    background-image: none;
+  }
+  .historyColumn,
+  .providersColumn {
+    flex-basis: 100%;
+  }
+  .historyColumn:last-child {
+    display: none;
+  }
+  .historyText {
+    max-width: 100%;
+  }
+  .providersGroup {
+    flex-direction: column;
+  }
+  .sprovidersGroup {
+    grid-template-columns: repeat(3, 10.75rem);
+  }
+}
+@media (max-width: 36rem) {
+  .connectBlock {
+    padding-top: 2.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+  .connectSubtitle,
+  .connectTitle,
+  .depositTitle {
+    font-size: 1.5rem;
+  }
+  .connectGroup {
+    font-size: 1.125rem;
+    line-height: 1.78;
+  }
+  .depositBlock {
+    padding: 2.5rem 2.5rem 6.75rem;
+  }
+  .depositWithdrawTitle {
+    margin-bottom: 2.5rem;
+  }
+  .depositGroup {
+    font-size: 1.125rem;
+    line-height: 1.78;
+    gap: 2.5rem;
+  }
+  .paymentChipsMobile {
+    display: block;
+    position: absolute;
+    top: -15rem;
+    left: 0;
+  }
+  .payMethodBlock,
+  .sprovidersBlock {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+  .payMethodTitle {
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.028;
+  }
+  .applicationCircleContainer,
+  .paymentCircleContainer {
+    background: var(--bg-light);
+  }
+  .providersBlock {
+    padding-top: 2.5rem;
+  }
+  .providersTitle {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  .providersGroup {
+    gap: 2.5rem;
+    font-size: 1.125rem;
+    line-height: 1.78;
+  }
+  .sgradientContainer::before,
+  .sprovidersContainer {
+    border-radius: 0.5rem;
+  }
+  .sprovidersTitle {
+    margin-bottom: 2.5rem;
+    font-size: 2rem;
+    max-width: 50%;
+  }
+  .sprovidersContainer {
+    width: 9.625rem;
+    height: 4.5rem;
+  }
+  .sprovidersGroup {
+    grid-template-columns: repeat(3, 9.625rem);
+  }
+}
+.application,
+.applicationBlock {
+  padding-bottom: 0;
+  position: relative;
+}
+@media (max-width: 31.875rem) {
+  .sprovidersTitle {
+    max-width: 100%;
+  }
+  .sprovidersGroup {
+    grid-template-columns: repeat(2, 9.625rem);
+  }
+}
+@media (max-width: 21.875rem) {
+  .sprovidersContainer {
+    width: 10.75rem;
+    height: 5.5rem;
+  }
+  .sprovidersGroup {
+    grid-template-columns: repeat(1, 10.75rem);
+  }
+}
+.application,
+.faq {
+  background-image: none;
+}
+.applicationBlock {
+  z-index: 1;
+  padding-top: 8rem;
+  font-size: 1.25rem;
+  line-height: 2;
+}
+.applicationTitle {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  max-width: 50%;
+}
+.applicationGroup {
+  display: flex;
+  gap: 2.5rem;
+  position: relative;
+}
+.applicationColumn {
+  max-width: 34.25rem;
+  width: 34.25rem;
+  display: flex;
+  flex-direction: column;
+}
+.applicationList {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.applicationItemDecimal {
+  list-style: decimal;
+  margin-left: 1rem;
+}
+.applicationColumn:nth-child(2) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  min-height:300px;
+}
+.applicationImage {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+.applicationStoreGroup {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 0.625rem;
+}
+.applicationMobilePhone {
+  position: absolute;
+
+  top: calc(-10rem + 0rem);
+  right: calc(0rem + 0rem);
+  width: calc(52% + 19%);
+  max-width: calc(52% + 19%);
+  height: auto;
+}
+@media (max-width: 83.125rem) {
+  .applicationMobilePhone {
+    position: absolute;
+    top: calc(-10rem + 0rem);
+    right: calc(0rem + 0rem);
+    width: calc(52% + 19%);
+    max-width: calc(52% + 19%);
+    height: auto;
+  }
+}
+@media (max-width: 64rem) {
+  .applicationMobilePhone {
+    top: calc(-12rem + 0rem);
+    right: calc(0rem + 0rem);
+    width: calc(70% + 19%);
+    max-width: calc(70% + 19%);
+  }
+  .idiomas {
+    background-image: none;
+  }
+  .idiomasGroup {
+    flex-direction: column;
+  }
+  .idiomasColumn {
+    flex-basis: 100%;
+  }
+}
+@media (max-width: 48rem) {
+  .applicationBlock {
+    font-size: 1.125rem;
+    line-height: 1.78;
+  }
+  .applicationTitle {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    max-width: 60%;
+  }
+  .applicationGroup {
+    width: 100%;
+    position: relative;
+    gap: 0;
+  }
+  .applicationColumn:nth-child(2) {
+    position: static;
+    max-width: 20%;
+    width: 20%;
+  }
+  .applicationMobile {
+    position: static;
+    width: 0;
+  }
+  .applicationMobilePhone {
+    position: absolute;
+    left: auto;
+    height: auto;
+
+    top: calc(-20rem + 0rem);
+    right: calc(-1rem + 0rem);
+    width: calc(27% + 19%);
+    max-width: calc(27% + 19%);
+  }
+  .applicationColumn {
+    max-width: 80%;
+    width: 80%;
+  }
+}
+@media (max-width: 36rem) {
+  .applicationBlock {
+    padding-top: 7rem;
+  }
+  .applicationTitle {
+    max-width: 75%;
+  }
+  .applicationDescription {
+    max-width: 100%;
+  }
+  .applicationDescriptionTwo {
+    margin-bottom: 1.5rem;
+    max-width: 100%;
+  }
+  .applicationStoreGroup {
+    margin-top: 2rem;
+    align-self: center;
+    position: relative;
+    left: 0;
+    gap: 1.5rem;
+  }
+  .applicationGroup {
+    flex-direction: column-reverse;
+  }
+  .applicationColumn,
+  .applicationColumn:nth-child(2) {
+    max-width: 100%;
+    width: 100%;
+  }
+  .applicationMobilePhone {
+    position: static;
+    left: auto;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    margin-left: 0;
+    height: auto;
+
+    top: calc(-13rem + 0rem);
+    right: calc(-3rem + 0rem);
+    width: calc(37% + 19%);
+    max-width: calc(37% + 19%);
+  }
+}
+@media (max-width: 35rem) {
+  .advantagesBlock {
+    background-image: none;
+  }
+  .advantagesDescription,
+  .advantagesMobile {
+    padding: 0;
+  }
+  .advantagesMobilePhone {
+    position: static;
+    top: 2.5rem;
+    right: 0;
+    width: 80%;
+    max-width: 80%;
+    height: auto;
+    align-self: center;
+    margin-left: unset;
+  }
+  .advantagesLink {
+    width: 15rem;
+    max-width: 15rem;
+  }
+  .advantagesStoreGroup {
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .applicationTitle {
+    max-width: 100%;
+  }
+  .applicationMobilePhone {
+    margin-top: 2rem;
+    position: static;
+    transform: rotate(0);
+    height: auto;
+    margin-left: unset;
+
+    top: calc(-15rem + 0rem);
+    right: calc(0rem + 0rem);
+    width: calc(65% + 19%);
+    max-width: calc(65% + 19%);
+  }
+  .applicationStoreGroup {
+    position: static;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.idiomasTitle {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+.idiomasItem {
+  list-style: decimal inside;
+  margin-left: 1rem;
+}
+.faqBlock {
+  padding-top: 8.75rem;
+  padding-bottom: 7.5rem;
+  max-width: 70rem;
+}
+.faqTitle {
+  margin-bottom: 1.5rem;
+  margin-left: 0;
+}
+.gradientContainer::before {
+  content: "";
+  position: absolute;
+  top: -0.125rem;
+  left: -0.125rem;
+  right: -0.125rem;
+  bottom: -0.125rem;
+  background: 0 0;
+  z-index: -2;
+  border-radius: 0.5rem;
+}
+.faqInput:checked + .faqLabel::before,
+.faqLabel::before {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  content: "";
+  left: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+}
+.faqLabel {
+  display: flex;
+  transition: 0.5s;
+  position: relative;
+  border-radius: 0.5rem;
+  height: auto;
+  margin: 0 0 1.5rem;
+}
+.gradientContainer {
+  display: flex;
+  align-items: center;
+  -webkit-align-items: center;
+  padding: 0.5rem 2rem 0.5rem 5.5rem;
+  font-family: var(--accent-font);
+  font-size: 1.5rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+  font-weight: 900;
+  background: var(--faq-label);
+  color: var(--text);
+  border-radius: 0.5rem;
+  height: auto;
+  width: 100%;
+}
+.faqIcon {
+  position: absolute;
+  top: 50%;
+  left: 2rem;
+  transform: translateY(-50%);
+}
+.faqIcon .minus {
+  display: none;
+}
+.faqInput:checked + .faqLabel .plus {
+  display: none;
+}
+.faqInput:checked + .faqLabel .minus {
+  display: inline;
+}
+.faqContent {
+  padding: 0.625rem 2.375rem 1.5rem 0;
+  font-size: 1.25rem;
+  line-height: 2;
+  margin: -1.5rem 0 0;
+  color: var(--text);
+}
+@media (max-width: 36rem) {
+  .idiomasBlock {
+    padding-top: 2.5rem;
+  }
+  .idiomasTitle {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  .idiomasGroup {
+    gap: 2rem;
+    font-size: 1.125rem;
+    line-height: 1.78;
+  }
+  .faqBlock {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+  .faqLabel,
+  .gradientContainer,
+  .gradientContainer::before {
+    border-radius: 0.5rem;
+  }
+  .gradientContainer {
+    padding: 0.5rem 1rem 0.5rem 3.5rem;
+    font-size: 1.125rem;
+    line-height: 1.22;
+  }
+  .faqLabel {
+    margin: 0 0 1.625rem;
+  }
+  .faqInput:checked + .faqLabel::before,
+  .faqLabel::before {
+    width: 1.5rem;
+    height: 1.5rem;
+    left: 1rem;
+  }
+  .faqContent {
+    padding: 0.625rem 0 1.5rem;
+    font-size: 1.125rem;
+    line-height: 1.78;
+    margin: -1.5rem 0 0;
+  }
+}
+@media (max-width: 25rem) {
+  .gradientContainer {
+    font-size: 0.8rem;
+  }
+  .faqLabel {
+    word-wrap: break-word;
+  }
+}
+.availableGames,
+.bonuses {
+  background: var(--bg-light);
+  color: var(--text-black);
+}
+.availableGamesBlock {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  font-size: 1.25rem;
+  line-height: 2;
+  max-width: 70rem;
+}
+.availableGamesTitle,
+.bonusesTitle {
+  margin-bottom: 3rem;
+  font-size: 3.5rem;
+  color: var(--text-black);
+}
+.availableGamesSubtitle,
+.bonusesSubtitle {
+  color: var(--text-black);
+  font-size: 2.5rem;
+}
+.availableGamesDescriptionLast,
+.prosAndConsDescriptionNext {
+  margin-top: 3rem;
+}
+.availableGamesGroup {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  gap: 4rem;
+}
+.availableGamesList,
+.bonusesList {
+  display: flex;
+  flex-direction: column;
+}
+.availableGamesColumn {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.availableGamesGame,
+.bonusesColumnBonus {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.support {
+  position: relative;
+  background-image: none;
+}
+.supportBlock {
+  padding-top: 8.75rem;
+  padding-bottom: 8.75rem;
+  position: relative;
+  z-index: 1;
+  max-width: 70rem;
+  color: var(--text);
+}
+.supportTitle {
+  margin-bottom: 3rem;
+  font-size: 3.5rem;
+}
+.supportGroup {
+  display: flex;
+  gap: 3.5rem;
+  font-size: 1.25rem;
+  line-height: 2;
+}
+.supportColumn:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 50%;
+  position: relative;
+}
+.supportList {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  gap: 0;
+}
+.supportImage {
+  position: absolute;
+
+  top: calc(-7rem + 0rem);
+  right: calc(-6rem + 0rem);
+  max-width: calc(114.5% + 0%);
+  width: calc(114.5% + 0%);
+  height: auto;
+}
+@media (max-width: 85rem) {
+  .supportImage {
+    position: absolute;
+    height: auto;
+
+    top: calc(-7rem + 0rem);
+    right: calc(0rem + 0rem);
+    max-width: calc(100% + 0%);
+    width: calc(100% + 0%);
+  }
+}
+.prosAndConsBlock {
+  padding-top: 8.75rem;
+  padding-bottom: 8.75rem;
+  line-height: 2;
+  font-size: 1.25rem;
+  max-width: 70rem;
+  color: var(--text);
+}
+.prosAndConsTitle {
+  font-size: 3.5rem;
+  line-height: 1;
+  margin-bottom: 3rem;
+}
+.prosAndConsSubtitle {
+  font-size: 1.5rem;
+}
+.prosAndConsGroup {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+}
+.prosAndConsColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+.prosAndConsList {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+.prosAndConsItem {
+  list-style: disc;
+}
+@media (max-width: 48rem) {
+  .prosAndConsColumn {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+}
+@media (max-width: 36rem) {
+  .availableGames {
+    background: var(--bg-light);
+    color: var(--text-black);
+  }
+  .availableGamesBlock {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    font-size: 1.125rem;
+    line-height: 1.78;
+  }
+  .availableGamesTitle {
+    margin-bottom: 2.5rem;
+    font-size: 2rem;
+    color: var(--text-black);
+  }
+  .availableGamesSubtitle {
+    font-size: 1.5rem;
+  }
+  .availableGamesDescriptionLast,
+  .prosAndConsDescriptionNext {
+    margin-top: 1.5rem;
+  }
+  .availableGamesGroup {
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+    gap: 2.5rem;
+  }
+  .availableGamesColumn,
+  .availableGamesGame,
+  .prosAndConsColumn {
+    gap: 1.5rem;
+  }
+  .supportTitle {
+    margin-bottom: 2.5rem;
+    font-size: 2rem;
+    line-height: 1;
+  }
+  .supportGroup {
+    font-size: 1.125rem;
+    line-height: 1.78;
+  }
+  .prosAndConsBlock {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    font-size: 1.125rem;
+    line-height: 1.78;
+  }
+  .prosAndConsTitle {
+    font-size: 2rem;
+    line-height: 1;
+    margin-bottom: 2.5rem;
+  }
+  .prosAndConsSubtitle {
+    font-size: 1.125rem;
+    font-family: var(--accent-font);
+    font-weight: 900;
+    line-height: 1.22;
+  }
+  .prosAndConsGroup {
+    display: flex;
+    gap: 3.5rem;
+    margin-top: 2.5rem;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 31.25rem) {
+  .bonusTableHeader,
+  .bonusTableRowContainer {
+    grid-template-columns: 5.5rem repeat(3, 1fr);
+  }
+  .bonusDetailsImage,
+  .bonusDetailsText,
+  .moreInfoLabel {
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    min-height: 3rem;
+    font-size: 0.75rem;
+    line-height: 100%;
+  }
+  .bonusTableRow > div:not(.bonusDetailsInfo) {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+  }
+  .bonusDetailsContainer .bonusDetailsText {
+    height: 1.5rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+  }
+  .bonusTableRow.bonusTableHeader > div.bonusTableHead {
+    font-size: 0.75rem;
+    line-height: 1.1875;
+    padding: 0.2rem 0.5rem;
+  }
+  div.bonusTableHead p {
+    height: 3.75rem;
+    padding: 0;
+  }
+  .bonusTableHead > .bonusHeaderCasino {
+    border-right: none;
+  }
+  .bonusDetailsInfo .bonusDetailBlock {
+    grid-template-columns: 5.5rem 3fr;
+  }
+  .bonusDetailsInfo .bonusDetailBlockAdd {
+    grid-template-columns: 1fr;
+  }
+  .bonusDetailBlock p {
+    padding: 0.2rem;
+    font-size: 0.75rem;
+    line-height: 100%;
+  }
+  .bonusHeaderCasino {
+    min-width: 5.5rem;
+  }
+  .bonusDetailsPicture {
+    min-width: 4.375rem;
+    width: 5.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bonusDetailsImage {
+    min-width: 3.75rem;
+    min-height: auto;
+  }
+  .connectBlock,
+  .historyBlock {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+  .historyTitle {
+    max-width: 100%;
+  }
+  .prosAndConsTitle {
+    font-size: 1.2rem;
+  }
+  .prosAndConsGroup {
+    flex-direction: column;
+  }
+  .prosAndConsColumn {
+    flex-basis: 100%;
+    font-size: 1.125rem;
+  }
+}
+.bonusesBlock {
+  max-width: 70rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  font-size: 1.25rem;
+  line-height: 2;
+}
+.bonusesGroup {
+  margin-top: 3rem;
+  display: flex;
+  gap: 2.8rem;
+  margin-bottom: 3rem;
+}
+.bonusesColumn {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+@media (max-width: 64rem) {
+  .faq,
+  .support {
+    background-image: none;
+  }
+  .availableGamesGroup,
+  .bonusesGroup {
+    flex-direction: column;
+  }
+  .availableGamesColumn,
+  .bonusesColumn,
+  .supportColumn {
+    flex-basis: 100%;
+  }
+  .supportBlock {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+  .supportTitle {
+    max-width: 100%;
+  }
+  .supportGroup {
+    flex-direction: column;
+    gap: 0;
+  }
+  .supportColumn:nth-child(2) {
+    flex-basis: 100%;
+    display: none;
+  }
+  .supportImage {
+    display: none;
+  }
+}
+@media (max-width: 36rem) {
+  .bonuses {
+    background: var(--bg-light);
+  }
+  .bonusesBlock {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    font-size: 1.125rem;
+    line-height: 1.78;
+  }
+  .bonusesTitle {
+    margin-bottom: 2.5rem;
+    font-size: 2rem;
+    color: var(--text-black);
+  }
+  .bonusesSubtitle {
+    color: var(--text-black);
+    font-size: 1.5rem;
+  }
+  .bonusesDescriptionNext {
+    margin-top: 1.5rem;
+  }
+  .bonusesGroup {
+    margin-top: 2.5rem;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .bonusesColumn,
+  .bonusesColumnBonus {
+    gap: 1.5rem;
+  }
+}
+@media (max-width: 26.25rem) {
+  .applicationTitle,
+  .availableGamesTitle,
+  .bonusesTitle,
+  .connectTitle,
+  .depositTitle,
+  .prosAndConsTitle,
+  .providersTitle,
+  .sprovidersTitle,
+  .title,
+  .title span {
+    font-size: 1.2rem;
+  }
+  .subtitle,
+  .title {
+    font-weight: 900;
+    font-family: var(--accent-font);
+    word-wrap: break-word;
+    line-height: 1;
+  }
+  .title span {
+    line-height: 1;
+  }
+  .availableGamesSubtitle,
+  .bonusesSubtitle,
+  .connectSubtitle,
+  .subtitle {
+    font-size: 1.1rem;
+  }
+  .nav__item {
+    font-size: 0.625rem;
+margin-top: 8px;
+  }
+  .nav__linkLarge {
+    width: 4.9rem;
+    font-size: 10px;
+    padding: 0.4rem;
+  }
+  .advantages,
+  .advantagesTitle {
+    color: var(--text-black);
+  }
+  .payMethodTitle {
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.028;
+  }
+  .applicationMobilePhone {
+    width: calc(75% + 19%);
+    max-width: calc(75% + 19%);
+  }
+  .idiomasTitle {
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  .supportTitle {
+    margin-bottom: 2.5rem;
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 90rem) {
+  .heroTextGroup {
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 70rem) {
+  .heroTextGroup {
+    max-width: 48%;
+  }
+}

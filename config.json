@@ -1,0 +1,952 @@
+{
+    "en": {
+        "styles": {
+            "bg": "#34262D",
+            "lang-select-color": "#9f1919",
+            "bg-light": "#34262D",
+            "welcome-bonus-bg": "#1c1921",
+            "top-games-hover-fg": "#F3CF65",
+            "main-bg": "#1c1921",
+            "text": "#ffffff",
+            "text-black": "#ffffff",
+            "table-head": "#34262D",
+            "text-head": "#ffffff",
+            "hero-title-text": "#ffffff",
+            "welcome-bonus-text": "#F3CF65",
+            "yellow": "#FF0080",
+            "yellow-button": "#FFC300",
+            "button-text": "#ffffff",
+            "border-color": "#5d5157",
+            "casino-cards": "#2B2732",
+            "bonus-border-head": "#5d5157",
+            "bonus-border": "#5d5157",
+            "pay-back": "#2B2732",
+            "providers-back": "#2B2732",
+            "faq-label": "#2B2732",
+            "bg-footer": "#3F2D36",
+            "copyright": "#80747a",
+            "starColor": "#FF0080",
+            "baseFont": {
+                "value": "Roboto",
+                "isCustom": false
+            },
+            "primaryFont": {
+                "value": "https:\/\/backend.builder.adkey.org:443\/api\/fonts\/download\/3",
+                "isCustom": true
+            }
+        },
+        "seo": {
+            "name": "Dragonia Casino Canada",
+            "title": "Dragonia Casino Canada \u2013 Secure Gaming, Bonuses & Fast Payouts",
+            "description": "Dragonia Casino Canada offers licensed online gaming, top slots, and safe crypto payments. Join now to explore big bonuses, weekly cashback, and real dealer tables.",
+            "canonical": "https:\/\/dragonia-canada.com\/",
+            "ogImage": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/2",
+            "ogImageWidth": 1200,
+            "ogImageHeight": 630,
+            "twitterSite": "@dragoniacasino",
+            "favicon": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/3",
+            "keywords": "casino, online casino, gambling, slots, table games"
+        },
+        "icons": {
+            "icon192": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/4"
+        },
+        "header": {
+            "logo": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/5",
+            "logoAlt": "Dragonia Casino Canada Logo"
+        },
+        "nav": {
+            "signUp": "Sign Up",
+            "playNow": "Play Now"
+        },
+        "hero": {
+            "title": "Welcome Bonus",
+            "textDesktop": "Exclusive welcome offer of",
+            "textMobile": "Exclusive welcome bonus of",
+            "playGame": "Play game",
+            "claimBonus": "Claim Bonus",
+            "image": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/6",
+            "mobileImage": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/7"
+        },
+        "topCasino": {
+            "topCasinoButtonText": "Claim Bonus",
+            "title": "Top Casino",
+            "allCasino": "All Casino",
+            "welcomeBonusText": "Welcome bonus"
+        },
+        "bonusDetails": {
+            "title": "Bonus Details",
+            "getBonusButtonText": "Get the Bonus",
+            "maximumAmountText": "Maximum amount",
+            "wagerText": "Wager",
+            "bonusCodeText": "Bonus Code",
+            "casino": "Casino",
+            "bonuses": "Bonuses",
+            "rate": "Rate",
+            "freeSpins": "Free Spins",
+            "moreInfo": "More Info",
+            "get": "Get",
+            "refresh": "Refresh"
+        },
+        "advantages": {
+            "title": "Advantages",
+            "advantagesBeforeText": "",
+            "items": [
+                "Licensed and regulated operation",
+                "Games optimized for both desktop and mobile",
+                "Supports Canadian dollars (CAD)",
+                "Wide selection of video slots and live dealer tables",
+                "Multiple secure payment methods",
+                "Dedicated customer support",
+                "Promotions and welcome bonuses"
+            ],
+            "advantagesAfterText": "",
+            "knowMore": "Know more",
+            "appTitle": "Dragonia App",
+            "mobile": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/8",
+            "mobileAlt": "Dragonia Canada Mobile",
+            "mobileGooglePlayImageTitle": "Dragonia Canada in Google Play",
+            "mobileIosImageTitle": "Dragonia Canada in App Store"
+        },
+        "games": {
+            "playNowText": "Play now",
+            "title": "Top Games",
+            "allGames": "All Games"
+        },
+        "about": {
+            "history": {
+                "title": "Dragonia Casino",
+                "description1": "",
+                "items": [
+                    "100% match bonus",
+                    "200 free spins",
+                    "25% of live game net losses up to C$200"
+                ],
+                "description2": "Dragonia Casino is a legal online casino that Canadians may play at. You can play a number of different games on it, such video slots, live dealer tables, and classic card games. You can play them on your computer or phone. The site is easy to navigate, has material that is relevant to Canadian users, and lets them pay in CAD. Players may check out current deals, collect welcome bonuses, and play games from well-known software companies. Dragonia Casino offers a full digital gambling experience with safe payment options and an emphasis on responsible gaming.",
+                "image": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/9",
+                "imageSizeModifier": 0,
+                "imageYModifier": 0,
+                "imageXModifier": 0,
+                "imageAlt": "Dragonia Canada Desktop",
+                "description3": ""
+            },
+            "connect": {
+                "title": "Dragonia Casino Registration Process",
+                "description1": "The signup procedure at Dragonia online Casino is quick and easy to utilize. After signing up, new players may easily set up an account and start looking at games, bonuses, and playing on their computer or phone. Registration Steps:",
+                "items": [
+                    "Click the Register button on the homepage",
+                    "Complete the pop-up registration form",
+                    "Provide personal information matching your official ID",
+                    "Submit the form to create your account",
+                    "Log in using your newly created credentials"
+                ],
+                "description2": ""
+            },
+            "deposit1": {
+                "title": "Deposit Methods",
+                "description1": "Dragonia Casino offers several dependable funding alternatives for fiat and digital currency gamers. Visa and MasterCard are accepted for deposits. Traditional methods like bank transfers are also acceptable. Dragonia accepts MiFinity and Paysafecard e-wallets. Bitcoin, Ethereum, Litecoin, Bitcoin Cash, Ripple, Tether, USD Coin, Dogecoin, Cardano, and more top tokens are accessible. Most fiat deposits start at C$10, but crypto deposits may be greater depending on the currency.",
+                "items": [],
+                "description2": ""
+            },
+            "deposit2": {
+                "title": "Withdrawal Methods",
+                "description1": "Dragonia accepts Visa and MasterCard withdrawals, bank transfers, MiFinity e-wallets, and a variety of cryptocurrencies. Withdrawals take up to three business days and have a C$10 minimum and daily maximum of C$500 to C$1,500 for elite VIPs. Monthly withdrawal limits increase similarly. All wagering criteria must be satisfied for free withdrawals; else, processing fees may apply.",
+                "items": [],
+                "description2": ""
+            }
+        },
+        "payMethod": {
+            "title": "Payment Methods",
+            "paymentMethodsButtonText": "Deposit",
+            "method": "Method",
+            "type": "Type",
+            "country": "Country",
+            "commission": "Commission",
+            "processingTime": "Processing Time",
+            "minimumDeposit": "Minimum Deposit",
+            "deposit": "Deposit"
+        },
+        "security": {
+            "title1": "Security",
+            "description1": "The Anjouan Gaming Commission has given Dragonia a license, and it employs SSL encryption that is typical in the banking industry to protect data and transactions. Regular audits by outside parties make sure that everything is fair and open, and independent auditor-certified RNGs protect the integrity of the game.",
+            "title2": "Software Technologies",
+            "description2": "Dragonia Casino works with over 100 game developers, including NetEnt, Microgaming, Play'n GO, Playtech, Evolution Gaming, Pragmatic Play, Yggdrasil, and Ezugi, as well as specialty operators Kiron and CandleBets. The casino employs HTML5 to provide seamless, responsive gameplay on all devices without downloads."
+        },
+        "softwareProviders": {
+            "title": "Software Providers"
+        },
+        "application": {
+            "title": "Casino App",
+            "description1": "No native app exists. Dragonia offers a responsive web platform. Mobile users may start games, manage accounts, and access promotions by visiting the casino's URL. For easy access, users can build a home screen shortcut.",
+            "image": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/10",
+            "imageSizeModifier": 19,
+            "imageYModifier": 0,
+            "imageXModifier": 0,
+            "imageAlt": "Dragonia Canada Mobile"
+        },
+        "idioma": {
+            "title1": "Languages",
+            "description1": "The platform supports 15 languages: English, German, French, Finnish, Hungarian, Italian, Portuguese, Czech, Slovak, Slovenian, Greek, Polish, Norwegian, Spanish, and maybe others.",
+            "title2": "Currencies",
+            "description2": "Dragonia accepts several dollars and cryptocurrencies. AUD, CAD, CHF, CZK, EUR, HUF, NOK, NZD, PLN, USD are fiat currencies. Bitcoin, Ethereum, Litecoin, Bitcoin Cash, Ripple, Tether, USD Coin, Dogecoin, Cardano, Binance Coin, and Tron are accepted."
+        },
+        "faq": {
+            "title": "CASINO FAQ",
+            "items": [
+                {
+                    "title": "Is Dragonia Casino licensed and legal in Canada?",
+                    "answer": "Yes, the Anjouan Gaming Commission gives Dragonia Casino a license, and Canadian players may play all of the games and take advantage of all of the promos."
+                },
+                {
+                    "title": "What is the minimum deposit at Dragonia Casino?",
+                    "answer": "The minimum deposit is C$10 or equivalent in supported fiat or cryptocurrencies, depending on the selected payment method."
+                },
+                {
+                    "title": "Can I set deposit or loss limits at Dragonia Casino?",
+                    "answer": "Yes, tools for responsible gambling enable you establish restrictions on how much you may deposit, lose, and play each day, week, or month."
+                },
+                {
+                    "title": "Are tournaments available at Dragonia Casino?",
+                    "answer": "Yes, Dragonia has weekly tournaments and missions with prizes and leaderboard incentives for people that are active."
+                },
+                {
+                    "title": "Does Dragonia Casino offer cashback on losses?",
+                    "answer": "Yes, live casino and sports betting sections offer weekly cashback ranging from 10% to 25%, with low wagering requirements."
+                }
+            ]
+        },
+        "availableGames": {
+            "title": "Games Available to Play at Dragonia Casino",
+            "description": "Dragonia Casino has a large, diversified game library for players. Thousands of titles in slots, live casino, table games, crash games, jackpots, and sports betting provide Canadian players plenty of alternatives for casual and serious gaming.",
+            "column1": [
+                {
+                    "title": "Slots",
+                    "description": "Dragonia Casino is one of Canada's largest slot collections with over 10,000 games. New releases and fan favorites including Gates of Olympus, Book of Dead, and Big Bass Bonanza are included. The slots range from fruit classics to fantasy, mythology, horror, and sponsored games. Some games include complex mechanisms like Megaways\u2122, Bonus Buys, cascading reels, expanding wilds, and jackpot triggers. Low- and high-volatility machines, configurable paylines, and a large betting range for various budgets are available. From casual plays to high-stakes payouts, slots provide diversity and excitement."
+                },
+                {
+                    "title": "Live Casino",
+                    "description": "Industry leaders Evolution, Pragmatic Play, Bombay Live, Ezugi, and Lucky Streak power Dragonia's live casino. This area has over 2,000 24\/7 tables with actual dealers and HD feeds. Live games include blackjack, roulette, baccarat, poker, dice, Teen Patti, and Andar Bahar. Game programs include Crazy Time, Dream Catcher, Monopoly Live, and Mega Wheel. The live interface is basic, has many camera angles, and supports dealer-player chat. With varied betting limits across tables, the live portion suits VIPs and casual gamers."
+                },
+                {
+                    "title": "Table Games & Video Poker",
+                    "description": "Table games at Dragonia Casino feature several blackjack and roulette variations, baccarat, craps, and sic bo. The site offers keno, bingo, digital scratch cards, and video poker games including Jacks or Better, Deuces Wild, and All Aces. Several top companies make these games, providing high-quality graphics, fluid gameplay, and fair RNG. The user interface makes switching between classic and modern layouts straightforward, and most games provide versatile betting choices for beginners and pros. Players may enjoy familiar forms or specialized alternatives on the same platform with this variety."
+                }
+            ],
+            "column2": [
+                {
+                    "title": "Crash Games & Instant Wins",
+                    "description": "Dragonia has several crash games and quick wins for fast-paced, adrenaline-pumping play. Aviator by Spribe, Mines, Hi-Lo, Dice, Goals, and Plinko are popular. Short rounds, few rules, and high-risk multipliers make these games excellent for thrill-seekers and rapid gaming sessions. Aviator, a crash game, lets players stake real money and pay out before the game \"crashes,\" combining skill and luck. Most of these games load quickly and have modest minimum bets, making them accessible to anyone. Mobile users and crypto gamblers utilize them because of their easy design and high profits."
+                },
+                {
+                    "title": "Jackpot Games",
+                    "description": "Dragonia's jackpot category has slot-based games with progressive and fixed jackpots. These games let players pursue big jackpots with one spin, frequently through random or bonus round occurrences. Dragonia games provide worldwide progressive pools and tailored prizes for diverse winnings. Famous studios recognized for big-payout systems have made games in adventure, mythology, luxury, and fantasy genres. Life-changing winnings are available on slots with grand, major, and minor tiered jackpots. New content is added often to the well-organized area."
+                }
+            ]
+        },
+        "support": {
+            "title": "Support",
+            "description1": "You may get help from Dragonia 24 hours a day, 7 days a week by live chat or email at support@dragonia.com. There is no phone support, but the multilingual staff answers questions rapidly in all languages.",
+            "items": [],
+            "description2": "",
+            "image": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/11",
+            "imageSizeModifier": 0,
+            "imageYModifier": 0,
+            "imageXModifier": 0,
+            "imageAlt": "Support"
+        },
+        "bonuses": {
+            "title": "Dragonia Casino Bonuses and Promotions",
+            "description": "Dragonia Casino offers a big welcome package, frequent reloads, cashback incentives, and VIP privileges to improve the gaming experience with clear wagering restrictions.",
+            "column1": [
+                {
+                    "title": "Welcome Bonus",
+                    "description": "Dragonia Casino starts new players off strong with a welcome bonus. Users earn a 100% match bonus up to C$500 after depositing C$20. In addition to the cash bonus, the package contains 200 free spins and one Bonus Crab round with prizes. Free spins are supplied in batches of 20 each day for 10 days on chosen slot games. Winnings from spins demand 40\u00d7 wagering, while bonus money require 35\u00d7 wagering before withdrawal. First-time depositors must manually activate this bonus before playing."
+                },
+                {
+                    "title": "Weekly Reload \u2013 Casino",
+                    "description": "Dragonia Casino offers a reload bonus Monday through Thursday to keep games interesting. Players that deposit C$20 or more receive 50 free spins on operator-selected slots. After the qualifying deposit, the spins are automatically credited. Spins must be spent within 7-10 days and any earnings are subject to a 40\u00d7 wagering requirement. This midweek bonus encourages returning players to play new slots with affordable playtime terms."
+                },
+                {
+                    "title": "Weekend Reload \u2013 Casino",
+                    "description": "Special cashback and free spins bonuses are available on weekends. From Friday to Sunday, gamers who deposit C$20 or more receive 50% bonus cashback up to C$700. Players that deposit C$50 or more get 50 free spins. Wagering requirements for cashback bonuses are 35\u00d7, while free spins are 40\u00d7. This promotion rewards greater deposits and longer weekend gaming sessions with cashback and free spins."
+                }
+            ],
+            "column2": [
+                {
+                    "title": "Live Casino Cashback",
+                    "description": "Dragonia Casino offers weekly rewards to live casino players. This offer refunds 25% of live game net losses up to C$200. A key benefit of this deal is the minimal wagering requirement of only 1\u00d7, making it simple for players to get their cashback. Live blackjack, roulette, and baccarat players can use this bonus as a backup to balance their game. Weekly cashback can be used in live games."
+                },
+                {
+                    "title": "VIP Weekly Cashback",
+                    "description": "Dragonia Casino offers VIP cashback incentives that improve with tier level for committed players. Top VIPs get better percentages and cashback limitations. Advanced members can get 15% weekly cashback and C$3,000 payments. Only VIP players who play often and risk a lot can get this promotion. As with the ordinary cashback offer, the VIP version has a modest wagering requirement of 1\u00d7, making it an appealing loyalty incentive for long-term customers."
+                }
+            ]
+        },
+        "prosAndCons": {
+            "title": "Dragonia \u0421asino Advantages",
+            "description": "Dragonia Casino is a Canadian-focused online casino that puts the player first. It has a lot of different games and current features to make the experience more fun.",
+            "pros": {
+                "title": "Advantages:",
+                "items": [
+                    "Licensed and regulated operation",
+                    "Games optimized for both desktop and mobile",
+                    "Supports Canadian dollars (CAD)",
+                    "Wide selection of video slots and live dealer tables",
+                    "Multiple secure payment methods",
+                    "Dedicated customer support",
+                    "Promotions and welcome bonuses"
+                ]
+            },
+            "cons": {
+                "title": "Disadvantages:",
+                "items": [
+                    "Country restrictions may apply to some players",
+                    "Wagering requirements on bonuses",
+                    "Limited availability of certain niche games"
+                ]
+            }
+        },
+        "footer": {
+            "logo": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/12",
+            "copyright": "Dragonia Casino"
+        }
+    },
+    "de": {
+        "styles": {
+            "bg": "#34262D",
+            "lang-select-color": "#9f1919",
+            "bg-light": "#34262D",
+            "welcome-bonus-bg": "#1c1921",
+            "top-games-hover-fg": "#F3CF65",
+            "main-bg": "#1c1921",
+            "text": "#ffffff",
+            "text-black": "#ffffff",
+            "table-head": "#34262D",
+            "text-head": "#ffffff",
+            "hero-title-text": "#ffffff",
+            "welcome-bonus-text": "#F3CF65",
+            "yellow": "#FF0080",
+            "yellow-button": "#FFC300",
+            "button-text": "#ffffff",
+            "border-color": "#5d5157",
+            "casino-cards": "#2B2732",
+            "bonus-border-head": "#5d5157",
+            "bonus-border": "#5d5157",
+            "pay-back": "#2B2732",
+            "providers-back": "#2B2732",
+            "faq-label": "#2B2732",
+            "bg-footer": "#3F2D36",
+            "copyright": "#80747a",
+            "starColor": "#FF0080",
+            "baseFont": {
+                "value": "Roboto",
+                "isCustom": false
+            },
+            "primaryFont": {
+                "value": "https:\/\/backend.builder.adkey.org:443\/api\/fonts\/download\/3",
+                "isCustom": true
+            }
+        },
+        "seo": {
+            "name": "Dragonia Casino Canada",
+            "title": "Dragonia Casino Canada \u2013 Secure Gaming, Bonuses & Fast Payouts",
+            "description": "Dragonia Casino Canada offers licensed online gaming, top slots, and safe crypto payments. Join now to explore big bonuses, weekly cashback, and real dealer tables.",
+            "canonical": "https:\/\/dragonia-canada.com\/",
+            "ogImage": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/2",
+            "ogImageWidth": 1200,
+            "ogImageHeight": 630,
+            "twitterSite": "@dragoniacasino",
+            "favicon": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/3",
+            "keywords": "casino, online casino, gambling, slots, table games"
+        },
+        "icons": {
+            "icon192": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/4"
+        },
+        "header": {
+            "logo": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/5",
+            "logoAlt": "Dragonia Casino Canada Logo"
+        },
+        "nav": {
+            "signUp": "Sign Up",
+            "playNow": "Play Now"
+        },
+        "hero": {
+            "title": "Welcome Bonus",
+            "textDesktop": "Exclusive welcome offer of",
+            "textMobile": "Exclusive welcome bonus of",
+            "playGame": "Play game",
+            "claimBonus": "Claim Bonus",
+            "image": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/6",
+            "mobileImage": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/7"
+        },
+        "topCasino": {
+            "topCasinoButtonText": "Claim Bonus",
+            "title": "Top Casino",
+            "allCasino": "All Casino",
+            "welcomeBonusText": "Welcome bonus"
+        },
+        "bonusDetails": {
+            "title": "Bonus Details",
+            "getBonusButtonText": "Get the Bonus",
+            "maximumAmountText": "Maximum amount",
+            "wagerText": "Wager",
+            "bonusCodeText": "Bonus Code",
+            "casino": "Casino",
+            "bonuses": "Bonuses",
+            "rate": "Rate",
+            "freeSpins": "Free Spins",
+            "moreInfo": "More Info",
+            "get": "Get",
+            "refresh": "Refresh"
+        },
+        "advantages": {
+            "title": "Advantages",
+            "advantagesBeforeText": "",
+            "items": [
+                "Licensed and regulated operation",
+                "Games optimized for both desktop and mobile",
+                "Supports Canadian dollars (CAD)",
+                "Wide selection of video slots and live dealer tables",
+                "Multiple secure payment methods",
+                "Dedicated customer support",
+                "Promotions and welcome bonuses"
+            ],
+            "advantagesAfterText": "",
+            "knowMore": "Know more",
+            "appTitle": "Dragonia App",
+            "mobile": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/8",
+            "mobileAlt": "Dragonia Canada Mobile",
+            "mobileGooglePlayImageTitle": "Dragonia Canada in Google Play",
+            "mobileIosImageTitle": "Dragonia Canada in App Store"
+        },
+        "games": {
+            "playNowText": "Play now",
+            "title": "Top Games",
+            "allGames": "All Games"
+        },
+        "about": {
+            "history": {
+                "title": "Dragonia Casino",
+                "description1": "",
+                "items": [
+                    "100% match bonus",
+                    "200 free spins",
+                    "25% of live game net losses up to C$200"
+                ],
+                "description2": "Dragonia Casino is a legal online casino that Canadians may play at. You can play a number of different games on it, such video slots, live dealer tables, and classic card games. You can play them on your computer or phone. The site is easy to navigate, has material that is relevant to Canadian users, and lets them pay in CAD. Players may check out current deals, collect welcome bonuses, and play games from well-known software companies. Dragonia Casino offers a full digital gambling experience with safe payment options and an emphasis on responsible gaming.",
+                "image": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/9",
+                "imageSizeModifier": 0,
+                "imageYModifier": 0,
+                "imageXModifier": 0,
+                "imageAlt": "Dragonia Canada Desktop",
+                "description3": ""
+            },
+            "connect": {
+                "title": "Dragonia Casino Registration Process",
+                "description1": "The signup procedure at Dragonia online Casino is quick and easy to utilize. After signing up, new players may easily set up an account and start looking at games, bonuses, and playing on their computer or phone. Registration Steps:",
+                "items": [
+                    "Click the Register button on the homepage",
+                    "Complete the pop-up registration form",
+                    "Provide personal information matching your official ID",
+                    "Submit the form to create your account",
+                    "Log in using your newly created credentials"
+                ],
+                "description2": ""
+            },
+            "deposit1": {
+                "title": "Deposit Methods",
+                "description1": "Dragonia Casino offers several dependable funding alternatives for fiat and digital currency gamers. Visa and MasterCard are accepted for deposits. Traditional methods like bank transfers are also acceptable. Dragonia accepts MiFinity and Paysafecard e-wallets. Bitcoin, Ethereum, Litecoin, Bitcoin Cash, Ripple, Tether, USD Coin, Dogecoin, Cardano, and more top tokens are accessible. Most fiat deposits start at C$10, but crypto deposits may be greater depending on the currency.",
+                "items": [],
+                "description2": ""
+            },
+            "deposit2": {
+                "title": "Withdrawal Methods",
+                "description1": "Dragonia accepts Visa and MasterCard withdrawals, bank transfers, MiFinity e-wallets, and a variety of cryptocurrencies. Withdrawals take up to three business days and have a C$10 minimum and daily maximum of C$500 to C$1,500 for elite VIPs. Monthly withdrawal limits increase similarly. All wagering criteria must be satisfied for free withdrawals; else, processing fees may apply.",
+                "items": [],
+                "description2": ""
+            }
+        },
+        "payMethod": {
+            "title": "Payment Methods",
+            "paymentMethodsButtonText": "Deposit",
+            "method": "Method",
+            "type": "Type",
+            "country": "Country",
+            "commission": "Commission",
+            "processingTime": "Processing Time",
+            "minimumDeposit": "Minimum Deposit",
+            "deposit": "Deposit"
+        },
+        "security": {
+            "title1": "Security",
+            "description1": "The Anjouan Gaming Commission has given Dragonia a license, and it employs SSL encryption that is typical in the banking industry to protect data and transactions. Regular audits by outside parties make sure that everything is fair and open, and independent auditor-certified RNGs protect the integrity of the game.",
+            "title2": "Software Technologies",
+            "description2": "Dragonia Casino works with over 100 game developers, including NetEnt, Microgaming, Play'n GO, Playtech, Evolution Gaming, Pragmatic Play, Yggdrasil, and Ezugi, as well as specialty operators Kiron and CandleBets. The casino employs HTML5 to provide seamless, responsive gameplay on all devices without downloads."
+        },
+        "softwareProviders": {
+            "title": "Software Providers"
+        },
+        "application": {
+            "title": "Casino App",
+            "description1": "No native app exists. Dragonia offers a responsive web platform. Mobile users may start games, manage accounts, and access promotions by visiting the casino's URL. For easy access, users can build a home screen shortcut.",
+            "image": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/10",
+            "imageSizeModifier": 19,
+            "imageYModifier": 0,
+            "imageXModifier": 0,
+            "imageAlt": "Dragonia Canada Mobile"
+        },
+        "idioma": {
+            "title1": "Languages",
+            "description1": "The platform supports 15 languages: English, German, French, Finnish, Hungarian, Italian, Portuguese, Czech, Slovak, Slovenian, Greek, Polish, Norwegian, Spanish, and maybe others.",
+            "title2": "Currencies",
+            "description2": "Dragonia accepts several dollars and cryptocurrencies. AUD, CAD, CHF, CZK, EUR, HUF, NOK, NZD, PLN, USD are fiat currencies. Bitcoin, Ethereum, Litecoin, Bitcoin Cash, Ripple, Tether, USD Coin, Dogecoin, Cardano, Binance Coin, and Tron are accepted."
+        },
+        "faq": {
+            "title": "CASINO FAQ",
+            "items": [
+                {
+                    "title": "Is Dragonia Casino licensed and legal in Canada?",
+                    "answer": "Yes, the Anjouan Gaming Commission gives Dragonia Casino a license, and Canadian players may play all of the games and take advantage of all of the promos."
+                },
+                {
+                    "title": "What is the minimum deposit at Dragonia Casino?",
+                    "answer": "The minimum deposit is C$10 or equivalent in supported fiat or cryptocurrencies, depending on the selected payment method."
+                },
+                {
+                    "title": "Can I set deposit or loss limits at Dragonia Casino?",
+                    "answer": "Yes, tools for responsible gambling enable you establish restrictions on how much you may deposit, lose, and play each day, week, or month."
+                },
+                {
+                    "title": "Are tournaments available at Dragonia Casino?",
+                    "answer": "Yes, Dragonia has weekly tournaments and missions with prizes and leaderboard incentives for people that are active."
+                },
+                {
+                    "title": "Does Dragonia Casino offer cashback on losses?",
+                    "answer": "Yes, live casino and sports betting sections offer weekly cashback ranging from 10% to 25%, with low wagering requirements."
+                }
+            ]
+        },
+        "availableGames": {
+            "title": "Games Available to Play at Dragonia Casino",
+            "description": "Dragonia Casino has a large, diversified game library for players. Thousands of titles in slots, live casino, table games, crash games, jackpots, and sports betting provide Canadian players plenty of alternatives for casual and serious gaming.",
+            "column1": [
+                {
+                    "title": "Slots",
+                    "description": "Dragonia Casino is one of Canada's largest slot collections with over 10,000 games. New releases and fan favorites including Gates of Olympus, Book of Dead, and Big Bass Bonanza are included. The slots range from fruit classics to fantasy, mythology, horror, and sponsored games. Some games include complex mechanisms like Megaways\u2122, Bonus Buys, cascading reels, expanding wilds, and jackpot triggers. Low- and high-volatility machines, configurable paylines, and a large betting range for various budgets are available. From casual plays to high-stakes payouts, slots provide diversity and excitement."
+                },
+                {
+                    "title": "Live Casino",
+                    "description": "Industry leaders Evolution, Pragmatic Play, Bombay Live, Ezugi, and Lucky Streak power Dragonia's live casino. This area has over 2,000 24\/7 tables with actual dealers and HD feeds. Live games include blackjack, roulette, baccarat, poker, dice, Teen Patti, and Andar Bahar. Game programs include Crazy Time, Dream Catcher, Monopoly Live, and Mega Wheel. The live interface is basic, has many camera angles, and supports dealer-player chat. With varied betting limits across tables, the live portion suits VIPs and casual gamers."
+                },
+                {
+                    "title": "Table Games & Video Poker",
+                    "description": "Table games at Dragonia Casino feature several blackjack and roulette variations, baccarat, craps, and sic bo. The site offers keno, bingo, digital scratch cards, and video poker games including Jacks or Better, Deuces Wild, and All Aces. Several top companies make these games, providing high-quality graphics, fluid gameplay, and fair RNG. The user interface makes switching between classic and modern layouts straightforward, and most games provide versatile betting choices for beginners and pros. Players may enjoy familiar forms or specialized alternatives on the same platform with this variety."
+                }
+            ],
+            "column2": [
+                {
+                    "title": "Crash Games & Instant Wins",
+                    "description": "Dragonia has several crash games and quick wins for fast-paced, adrenaline-pumping play. Aviator by Spribe, Mines, Hi-Lo, Dice, Goals, and Plinko are popular. Short rounds, few rules, and high-risk multipliers make these games excellent for thrill-seekers and rapid gaming sessions. Aviator, a crash game, lets players stake real money and pay out before the game \"crashes,\" combining skill and luck. Most of these games load quickly and have modest minimum bets, making them accessible to anyone. Mobile users and crypto gamblers utilize them because of their easy design and high profits."
+                },
+                {
+                    "title": "Jackpot Games",
+                    "description": "Dragonia's jackpot category has slot-based games with progressive and fixed jackpots. These games let players pursue big jackpots with one spin, frequently through random or bonus round occurrences. Dragonia games provide worldwide progressive pools and tailored prizes for diverse winnings. Famous studios recognized for big-payout systems have made games in adventure, mythology, luxury, and fantasy genres. Life-changing winnings are available on slots with grand, major, and minor tiered jackpots. New content is added often to the well-organized area."
+                }
+            ]
+        },
+        "support": {
+            "title": "Support",
+            "description1": "You may get help from Dragonia 24 hours a day, 7 days a week by live chat or email at support@dragonia.com. There is no phone support, but the multilingual staff answers questions rapidly in all languages.",
+            "items": [],
+            "description2": "",
+            "image": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/11",
+            "imageSizeModifier": 0,
+            "imageYModifier": 0,
+            "imageXModifier": 0,
+            "imageAlt": "Support"
+        },
+        "bonuses": {
+            "title": "Dragonia Casino Bonuses and Promotions",
+            "description": "Dragonia Casino offers a big welcome package, frequent reloads, cashback incentives, and VIP privileges to improve the gaming experience with clear wagering restrictions.",
+            "column1": [
+                {
+                    "title": "Welcome Bonus",
+                    "description": "Dragonia Casino starts new players off strong with a welcome bonus. Users earn a 100% match bonus up to C$500 after depositing C$20. In addition to the cash bonus, the package contains 200 free spins and one Bonus Crab round with prizes. Free spins are supplied in batches of 20 each day for 10 days on chosen slot games. Winnings from spins demand 40\u00d7 wagering, while bonus money require 35\u00d7 wagering before withdrawal. First-time depositors must manually activate this bonus before playing."
+                },
+                {
+                    "title": "Weekly Reload \u2013 Casino",
+                    "description": "Dragonia Casino offers a reload bonus Monday through Thursday to keep games interesting. Players that deposit C$20 or more receive 50 free spins on operator-selected slots. After the qualifying deposit, the spins are automatically credited. Spins must be spent within 7-10 days and any earnings are subject to a 40\u00d7 wagering requirement. This midweek bonus encourages returning players to play new slots with affordable playtime terms."
+                },
+                {
+                    "title": "Weekend Reload \u2013 Casino",
+                    "description": "Special cashback and free spins bonuses are available on weekends. From Friday to Sunday, gamers who deposit C$20 or more receive 50% bonus cashback up to C$700. Players that deposit C$50 or more get 50 free spins. Wagering requirements for cashback bonuses are 35\u00d7, while free spins are 40\u00d7. This promotion rewards greater deposits and longer weekend gaming sessions with cashback and free spins."
+                }
+            ],
+            "column2": [
+                {
+                    "title": "Live Casino Cashback",
+                    "description": "Dragonia Casino offers weekly rewards to live casino players. This offer refunds 25% of live game net losses up to C$200. A key benefit of this deal is the minimal wagering requirement of only 1\u00d7, making it simple for players to get their cashback. Live blackjack, roulette, and baccarat players can use this bonus as a backup to balance their game. Weekly cashback can be used in live games."
+                },
+                {
+                    "title": "VIP Weekly Cashback",
+                    "description": "Dragonia Casino offers VIP cashback incentives that improve with tier level for committed players. Top VIPs get better percentages and cashback limitations. Advanced members can get 15% weekly cashback and C$3,000 payments. Only VIP players who play often and risk a lot can get this promotion. As with the ordinary cashback offer, the VIP version has a modest wagering requirement of 1\u00d7, making it an appealing loyalty incentive for long-term customers."
+                }
+            ]
+        },
+        "prosAndCons": {
+            "title": "Dragonia \u0421asino Advantages",
+            "description": "Dragonia Casino is a Canadian-focused online casino that puts the player first. It has a lot of different games and current features to make the experience more fun.",
+            "pros": {
+                "title": "Advantages:",
+                "items": [
+                    "Licensed and regulated operation",
+                    "Games optimized for both desktop and mobile",
+                    "Supports Canadian dollars (CAD)",
+                    "Wide selection of video slots and live dealer tables",
+                    "Multiple secure payment methods",
+                    "Dedicated customer support",
+                    "Promotions and welcome bonuses"
+                ]
+            },
+            "cons": {
+                "title": "Disadvantages:",
+                "items": [
+                    "Country restrictions may apply to some players",
+                    "Wagering requirements on bonuses",
+                    "Limited availability of certain niche games"
+                ]
+            }
+        },
+        "footer": {
+            "logo": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/12",
+            "copyright": "Dragonia Casino"
+        }
+    },
+    "fr": {
+        "styles": {
+            "bg": "#34262D",
+            "lang-select-color": "#ffffff",
+            "bg-light": "#34262D",
+            "welcome-bonus-bg": "#1c1921",
+            "top-games-hover-fg": "#F3CF65",
+            "main-bg": "#1c1921",
+            "text": "#ffffff",
+            "text-black": "#ffffff",
+            "table-head": "#34262D",
+            "text-head": "#ffffff",
+            "hero-title-text": "#ffffff",
+            "welcome-bonus-text": "#F3CF65",
+            "yellow": "#FF0080",
+            "yellow-button": "#FFC300",
+            "button-text": "#ffffff",
+            "border-color": "#5d5157",
+            "casino-cards": "#2B2732",
+            "bonus-border-head": "#5d5157",
+            "bonus-border": "#5d5157",
+            "pay-back": "#2B2732",
+            "providers-back": "#2B2732",
+            "faq-label": "#2B2732",
+            "bg-footer": "#3F2D36",
+            "copyright": "#80747a",
+            "starColor": "#FF0080",
+            "baseFont": {
+                "value": "Roboto",
+                "isCustom": false
+            },
+            "primaryFont": {
+                "value": "https:\/\/backend.builder.adkey.org:443\/api\/fonts\/download\/3",
+                "isCustom": true
+            }
+        },
+        "seo": {
+            "name": "Dragonia Casino Canada",
+            "title": "Dragonia Casino Canada \u2013 Secure Gaming, Bonuses & Fast Payouts",
+            "description": "Dragonia Casino Canada offers licensed online gaming, top slots, and safe crypto payments. Join now to explore big bonuses, weekly cashback, and real dealer tables.",
+            "canonical": "https:\/\/dragonia-canada.com\/",
+            "ogImage": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/2",
+            "ogImageWidth": 1200,
+            "ogImageHeight": 630,
+            "twitterSite": "@dragoniacasino",
+            "favicon": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/3",
+            "keywords": "casino, online casino, gambling, slots, table games"
+        },
+        "icons": {
+            "icon192": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/4"
+        },
+        "header": {
+            "logo": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/5",
+            "logoAlt": "Dragonia Casino Canada Logo"
+        },
+        "nav": {
+            "signUp": "Sign Up",
+            "playNow": "Play Now"
+        },
+        "hero": {
+            "title": "Welcome Bonus",
+            "textDesktop": "Exclusive welcome offer of",
+            "textMobile": "Exclusive welcome bonus of",
+            "playGame": "Play game",
+            "claimBonus": "Claim Bonus",
+            "image": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/6",
+            "mobileImage": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/7"
+        },
+        "topCasino": {
+            "topCasinoButtonText": "Claim Bonus",
+            "title": "Top Casino",
+            "allCasino": "All Casino",
+            "welcomeBonusText": "Welcome bonus"
+        },
+        "bonusDetails": {
+            "title": "Bonus Details",
+            "getBonusButtonText": "Get the Bonus",
+            "maximumAmountText": "Maximum amount",
+            "wagerText": "Wager",
+            "bonusCodeText": "Bonus Code",
+            "casino": "Casino",
+            "bonuses": "Bonuses",
+            "rate": "Rate",
+            "freeSpins": "Free Spins",
+            "moreInfo": "More Info",
+            "get": "Get",
+            "refresh": "Refresh"
+        },
+        "advantages": {
+            "title": "Advantages",
+            "advantagesBeforeText": "",
+            "items": [
+                "Licensed and regulated operation",
+                "Games optimized for both desktop and mobile",
+                "Supports Canadian dollars (CAD)",
+                "Wide selection of video slots and live dealer tables",
+                "Multiple secure payment methods",
+                "Dedicated customer support",
+                "Promotions and welcome bonuses"
+            ],
+            "advantagesAfterText": "",
+            "knowMore": "Know more",
+            "appTitle": "Dragonia App",
+            "mobile": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/8",
+            "mobileAlt": "Dragonia Canada Mobile",
+            "mobileGooglePlayImageTitle": "Dragonia Canada in Google Play",
+            "mobileIosImageTitle": "Dragonia Canada in App Store"
+        },
+        "games": {
+            "playNowText": "Play now",
+            "title": "Top Games",
+            "allGames": "All Games"
+        },
+        "about": {
+            "history": {
+                "title": "Dragonia Casino",
+                "description1": "",
+                "items": [
+                    "100% match bonus",
+                    "200 free spins",
+                    "25% of live game net losses up to C$200"
+                ],
+                "description2": "Dragonia Casino is a legal online casino that Canadians may play at. You can play a number of different games on it, such video slots, live dealer tables, and classic card games. You can play them on your computer or phone. The site is easy to navigate, has material that is relevant to Canadian users, and lets them pay in CAD. Players may check out current deals, collect welcome bonuses, and play games from well-known software companies. Dragonia Casino offers a full digital gambling experience with safe payment options and an emphasis on responsible gaming.",
+                "image": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/9",
+                "imageSizeModifier": 0,
+                "imageYModifier": 0,
+                "imageXModifier": 0,
+                "imageAlt": "Dragonia Canada Desktop",
+                "description3": ""
+            },
+            "connect": {
+                "title": "Dragonia Casino Registration Process",
+                "description1": "The signup procedure at Dragonia online Casino is quick and easy to utilize. After signing up, new players may easily set up an account and start looking at games, bonuses, and playing on their computer or phone. Registration Steps:",
+                "items": [
+                    "Click the Register button on the homepage",
+                    "Complete the pop-up registration form",
+                    "Provide personal information matching your official ID",
+                    "Submit the form to create your account",
+                    "Log in using your newly created credentials"
+                ],
+                "description2": ""
+            },
+            "deposit1": {
+                "title": "Deposit Methods",
+                "description1": "Dragonia Casino offers several dependable funding alternatives for fiat and digital currency gamers. Visa and MasterCard are accepted for deposits. Traditional methods like bank transfers are also acceptable. Dragonia accepts MiFinity and Paysafecard e-wallets. Bitcoin, Ethereum, Litecoin, Bitcoin Cash, Ripple, Tether, USD Coin, Dogecoin, Cardano, and more top tokens are accessible. Most fiat deposits start at C$10, but crypto deposits may be greater depending on the currency.",
+                "items": [],
+                "description2": ""
+            },
+            "deposit2": {
+                "title": "Withdrawal Methods",
+                "description1": "Dragonia accepts Visa and MasterCard withdrawals, bank transfers, MiFinity e-wallets, and a variety of cryptocurrencies. Withdrawals take up to three business days and have a C$10 minimum and daily maximum of C$500 to C$1,500 for elite VIPs. Monthly withdrawal limits increase similarly. All wagering criteria must be satisfied for free withdrawals; else, processing fees may apply.",
+                "items": [],
+                "description2": ""
+            }
+        },
+        "payMethod": {
+            "title": "Payment Methods",
+            "paymentMethodsButtonText": "Deposit",
+            "method": "Method",
+            "type": "Type",
+            "country": "Country",
+            "commission": "Commission",
+            "processingTime": "Processing Time",
+            "minimumDeposit": "Minimum Deposit",
+            "deposit": "Deposit"
+        },
+        "security": {
+            "title1": "Security",
+            "description1": "The Anjouan Gaming Commission has given Dragonia a license, and it employs SSL encryption that is typical in the banking industry to protect data and transactions. Regular audits by outside parties make sure that everything is fair and open, and independent auditor-certified RNGs protect the integrity of the game.",
+            "title2": "Software Technologies",
+            "description2": "Dragonia Casino works with over 100 game developers, including NetEnt, Microgaming, Play'n GO, Playtech, Evolution Gaming, Pragmatic Play, Yggdrasil, and Ezugi, as well as specialty operators Kiron and CandleBets. The casino employs HTML5 to provide seamless, responsive gameplay on all devices without downloads."
+        },
+        "softwareProviders": {
+            "title": "Software Providers"
+        },
+        "application": {
+            "title": "Casino App",
+            "description1": "No native app exists. Dragonia offers a responsive web platform. Mobile users may start games, manage accounts, and access promotions by visiting the casino's URL. For easy access, users can build a home screen shortcut.",
+            "image": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/10",
+            "imageSizeModifier": 19,
+            "imageYModifier": 0,
+            "imageXModifier": 0,
+            "imageAlt": "Dragonia Canada Mobile"
+        },
+        "idioma": {
+            "title1": "Languages",
+            "description1": "The platform supports 15 languages: English, German, French, Finnish, Hungarian, Italian, Portuguese, Czech, Slovak, Slovenian, Greek, Polish, Norwegian, Spanish, and maybe others.",
+            "title2": "Currencies",
+            "description2": "Dragonia accepts several dollars and cryptocurrencies. AUD, CAD, CHF, CZK, EUR, HUF, NOK, NZD, PLN, USD are fiat currencies. Bitcoin, Ethereum, Litecoin, Bitcoin Cash, Ripple, Tether, USD Coin, Dogecoin, Cardano, Binance Coin, and Tron are accepted."
+        },
+        "faq": {
+            "title": "CASINO FAQ",
+            "items": [
+                {
+                    "title": "Is Dragonia Casino licensed and legal in Canada?",
+                    "answer": "Yes, the Anjouan Gaming Commission gives Dragonia Casino a license, and Canadian players may play all of the games and take advantage of all of the promos."
+                },
+                {
+                    "title": "What is the minimum deposit at Dragonia Casino?",
+                    "answer": "The minimum deposit is C$10 or equivalent in supported fiat or cryptocurrencies, depending on the selected payment method."
+                },
+                {
+                    "title": "Can I set deposit or loss limits at Dragonia Casino?",
+                    "answer": "Yes, tools for responsible gambling enable you establish restrictions on how much you may deposit, lose, and play each day, week, or month."
+                },
+                {
+                    "title": "Are tournaments available at Dragonia Casino?",
+                    "answer": "Yes, Dragonia has weekly tournaments and missions with prizes and leaderboard incentives for people that are active."
+                },
+                {
+                    "title": "Does Dragonia Casino offer cashback on losses?",
+                    "answer": "Yes, live casino and sports betting sections offer weekly cashback ranging from 10% to 25%, with low wagering requirements."
+                }
+            ]
+        },
+        "availableGames": {
+            "title": "Games Available to Play at Dragonia Casino",
+            "description": "Dragonia Casino has a large, diversified game library for players. Thousands of titles in slots, live casino, table games, crash games, jackpots, and sports betting provide Canadian players plenty of alternatives for casual and serious gaming.",
+            "column1": [
+                {
+                    "title": "Slots",
+                    "description": "Dragonia Casino is one of Canada's largest slot collections with over 10,000 games. New releases and fan favorites including Gates of Olympus, Book of Dead, and Big Bass Bonanza are included. The slots range from fruit classics to fantasy, mythology, horror, and sponsored games. Some games include complex mechanisms like Megaways\u2122, Bonus Buys, cascading reels, expanding wilds, and jackpot triggers. Low- and high-volatility machines, configurable paylines, and a large betting range for various budgets are available. From casual plays to high-stakes payouts, slots provide diversity and excitement."
+                },
+                {
+                    "title": "Live Casino",
+                    "description": "Industry leaders Evolution, Pragmatic Play, Bombay Live, Ezugi, and Lucky Streak power Dragonia's live casino. This area has over 2,000 24\/7 tables with actual dealers and HD feeds. Live games include blackjack, roulette, baccarat, poker, dice, Teen Patti, and Andar Bahar. Game programs include Crazy Time, Dream Catcher, Monopoly Live, and Mega Wheel. The live interface is basic, has many camera angles, and supports dealer-player chat. With varied betting limits across tables, the live portion suits VIPs and casual gamers."
+                },
+                {
+                    "title": "Table Games & Video Poker",
+                    "description": "Table games at Dragonia Casino feature several blackjack and roulette variations, baccarat, craps, and sic bo. The site offers keno, bingo, digital scratch cards, and video poker games including Jacks or Better, Deuces Wild, and All Aces. Several top companies make these games, providing high-quality graphics, fluid gameplay, and fair RNG. The user interface makes switching between classic and modern layouts straightforward, and most games provide versatile betting choices for beginners and pros. Players may enjoy familiar forms or specialized alternatives on the same platform with this variety."
+                }
+            ],
+            "column2": [
+                {
+                    "title": "Crash Games & Instant Wins",
+                    "description": "Dragonia has several crash games and quick wins for fast-paced, adrenaline-pumping play. Aviator by Spribe, Mines, Hi-Lo, Dice, Goals, and Plinko are popular. Short rounds, few rules, and high-risk multipliers make these games excellent for thrill-seekers and rapid gaming sessions. Aviator, a crash game, lets players stake real money and pay out before the game \"crashes,\" combining skill and luck. Most of these games load quickly and have modest minimum bets, making them accessible to anyone. Mobile users and crypto gamblers utilize them because of their easy design and high profits."
+                },
+                {
+                    "title": "Jackpot Games",
+                    "description": "Dragonia's jackpot category has slot-based games with progressive and fixed jackpots. These games let players pursue big jackpots with one spin, frequently through random or bonus round occurrences. Dragonia games provide worldwide progressive pools and tailored prizes for diverse winnings. Famous studios recognized for big-payout systems have made games in adventure, mythology, luxury, and fantasy genres. Life-changing winnings are available on slots with grand, major, and minor tiered jackpots. New content is added often to the well-organized area."
+                }
+            ]
+        },
+        "support": {
+            "title": "Support",
+            "description1": "You may get help from Dragonia 24 hours a day, 7 days a week by live chat or email at support@dragonia.com. There is no phone support, but the multilingual staff answers questions rapidly in all languages.",
+            "items": [],
+            "description2": "",
+            "image": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/11",
+            "imageSizeModifier": 0,
+            "imageYModifier": 0,
+            "imageXModifier": 0,
+            "imageAlt": "Support"
+        },
+        "bonuses": {
+            "title": "Dragonia Casino Bonuses and Promotions",
+            "description": "Dragonia Casino offers a big welcome package, frequent reloads, cashback incentives, and VIP privileges to improve the gaming experience with clear wagering restrictions.",
+            "column1": [
+                {
+                    "title": "Welcome Bonus",
+                    "description": "Dragonia Casino starts new players off strong with a welcome bonus. Users earn a 100% match bonus up to C$500 after depositing C$20. In addition to the cash bonus, the package contains 200 free spins and one Bonus Crab round with prizes. Free spins are supplied in batches of 20 each day for 10 days on chosen slot games. Winnings from spins demand 40\u00d7 wagering, while bonus money require 35\u00d7 wagering before withdrawal. First-time depositors must manually activate this bonus before playing."
+                },
+                {
+                    "title": "Weekly Reload \u2013 Casino",
+                    "description": "Dragonia Casino offers a reload bonus Monday through Thursday to keep games interesting. Players that deposit C$20 or more receive 50 free spins on operator-selected slots. After the qualifying deposit, the spins are automatically credited. Spins must be spent within 7-10 days and any earnings are subject to a 40\u00d7 wagering requirement. This midweek bonus encourages returning players to play new slots with affordable playtime terms."
+                },
+                {
+                    "title": "Weekend Reload \u2013 Casino",
+                    "description": "Special cashback and free spins bonuses are available on weekends. From Friday to Sunday, gamers who deposit C$20 or more receive 50% bonus cashback up to C$700. Players that deposit C$50 or more get 50 free spins. Wagering requirements for cashback bonuses are 35\u00d7, while free spins are 40\u00d7. This promotion rewards greater deposits and longer weekend gaming sessions with cashback and free spins."
+                }
+            ],
+            "column2": [
+                {
+                    "title": "Live Casino Cashback",
+                    "description": "Dragonia Casino offers weekly rewards to live casino players. This offer refunds 25% of live game net losses up to C$200. A key benefit of this deal is the minimal wagering requirement of only 1\u00d7, making it simple for players to get their cashback. Live blackjack, roulette, and baccarat players can use this bonus as a backup to balance their game. Weekly cashback can be used in live games."
+                },
+                {
+                    "title": "VIP Weekly Cashback",
+                    "description": "Dragonia Casino offers VIP cashback incentives that improve with tier level for committed players. Top VIPs get better percentages and cashback limitations. Advanced members can get 15% weekly cashback and C$3,000 payments. Only VIP players who play often and risk a lot can get this promotion. As with the ordinary cashback offer, the VIP version has a modest wagering requirement of 1\u00d7, making it an appealing loyalty incentive for long-term customers."
+                }
+            ]
+        },
+        "prosAndCons": {
+            "title": "Dragonia \u0421asino Advantages",
+            "description": "Dragonia Casino is a Canadian-focused online casino that puts the player first. It has a lot of different games and current features to make the experience more fun.",
+            "pros": {
+                "title": "Advantages:",
+                "items": [
+                    "Licensed and regulated operation",
+                    "Games optimized for both desktop and mobile",
+                    "Supports Canadian dollars (CAD)",
+                    "Wide selection of video slots and live dealer tables",
+                    "Multiple secure payment methods",
+                    "Dedicated customer support",
+                    "Promotions and welcome bonuses"
+                ]
+            },
+            "cons": {
+                "title": "Disadvantages:",
+                "items": [
+                    "Country restrictions may apply to some players",
+                    "Wagering requirements on bonuses",
+                    "Limited availability of certain niche games"
+                ]
+            }
+        },
+        "footer": {
+            "logo": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/12",
+            "copyright": "Dragonia Casino"
+        }
+    },
+    "langs": [
+        {
+            "code": "en",
+            "name": "\u0410\u043d\u0433\u043b\u0438\u0439\u0441\u043a\u0438\u0439",
+            "isDefault": true
+        },
+        {
+            "code": "de",
+            "name": "\u041d\u0435\u043c\u0435\u0446\u043a\u0438\u0439",
+            "isDefault": false
+        },
+        {
+            "code": "fr",
+            "name": "\u0424\u0440\u0430\u043d\u0446\u0443\u0437\u0441\u043a\u0438\u0439",
+            "isDefault": false
+        }
+    ]
+}

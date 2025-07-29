@@ -1,0 +1,1919 @@
+{
+  "placeholders": {
+    "https://api.adkey-seo.com/api/website/get-website/1046": {
+      "website": {
+        "id": 777,
+        "link": "https:\/\/paf-casino-online.com",
+        "type": "Gambling",
+        "android_app": null,
+        "ios_app": null,
+        "country_code": "UA",
+        "country_name": "Ukraine"
+      },
+      "offers": [
+        {
+          "id": 35,
+          "name": "Vulkan 777",
+          "sub2": "1418",
+          "countries": ["UA"],
+          "logo": "logo-vulkan777-554411112_1668689631.webp",
+          "logo_light": "logo-vulkan777-2019850017_1668689631.webp",
+          "bonuses": {
+            "rate": "100%",
+            "amount": "300\u20ac",
+            "country": "Default",
+            "free_spins": "60",
+            "welcome_bonus": "100% up to 300\u20ac +60 free spins"
+          },
+          "domain_id": 1,
+          "wager": "x30",
+          "bonus_code": null,
+          "type": "Gambling",
+          "active": 1,
+          "created_at": "2022-11-17T12:53:51.000000Z",
+          "updated_at": "2022-11-17T12:53:51.000000Z",
+          "domain_url": "https:\/\/lgbktkr.pro\/5Dn45j",
+          "position": null,
+          "country_code": null,
+          "website_id": null,
+          "link": "https:\/\/lgbktkr.pro\/5Dn45j?sub1=12883&sub2=1418&sub3=777"
+        },
+        {
+          "id": 156,
+          "name": "Crown Play Global",
+          "sub2": "c-4758",
+          "countries": ["All countries"],
+          "logo": "Crownplay_dark-180487395_1743606668.webp",
+          "logo_light": "Crownplay_light-1708357188_1743606668.webp",
+          "bonuses": {
+            "rate": "",
+            "amount": "4000$",
+            "country": "Default",
+            "free_spins": "400",
+            "welcome_bonus": "A$4,000 + 400 FREE SPINS"
+          },
+          "domain_id": 2,
+          "wager": null,
+          "bonus_code": null,
+          "type": "Gambling",
+          "active": 1,
+          "created_at": "2024-08-01T15:11:16.000000Z",
+          "updated_at": "2025-04-02T15:11:08.000000Z",
+          "domain_url": "https:\/\/csdjvchf.world\/fx8wTd2k",
+          "position": null,
+          "country_code": null,
+          "website_id": null,
+          "link": "https:\/\/csdjvchf.world\/fx8wTd2k?sub1=12883&sub2=c-4758&sub3=777"
+        },
+        {
+          "id": 6,
+          "name": "Joo Casino",
+          "sub2": "c-1169",
+          "countries": ["All countries"],
+          "logo": "logo-joo-1904196025_1668637555.webp",
+          "logo_light": "logo-joo-1281968386_1668637555.webp",
+          "bonuses": {
+            "rate": "100%",
+            "amount": "1000\u20ac",
+            "country": "Default",
+            "free_spins": "50",
+            "welcome_bonus": "100% + 50 free spins"
+          },
+          "domain_id": 1,
+          "wager": "x50",
+          "bonus_code": null,
+          "type": "Gambling",
+          "active": 1,
+          "created_at": "2022-11-16T22:25:55.000000Z",
+          "updated_at": "2022-11-16T22:25:55.000000Z",
+          "domain_url": "https:\/\/lgbktkr.pro\/5Dn45j",
+          "position": null,
+          "country_code": null,
+          "website_id": null,
+          "link": "https:\/\/lgbktkr.pro\/5Dn45j?sub1=12883&sub2=c-1169&sub3=777"
+        },
+        {
+          "id": 25,
+          "name": "MelBet",
+          "sub2": "c-3209",
+          "countries": ["All countries"],
+          "logo": "logo-melbet-1139766065_1668642792.webp",
+          "logo_light": "logo-melbet-1070724097_1668642792.webp",
+          "bonuses": {
+            "rate": "100%",
+            "amount": "100\u20ac",
+            "country": "Default",
+            "free_spins": "",
+            "welcome_bonus": "100% up to 100\u20ac"
+          },
+          "domain_id": 1,
+          "wager": null,
+          "bonus_code": null,
+          "type": "Betting&Gambling",
+          "active": 1,
+          "created_at": "2022-11-16T23:53:12.000000Z",
+          "updated_at": "2023-11-21T16:29:40.000000Z",
+          "domain_url": "https:\/\/lgbktkr.pro\/5Dn45j",
+          "position": null,
+          "country_code": null,
+          "website_id": null,
+          "link": "https:\/\/lgbktkr.pro\/5Dn45j?sub1=12883&sub2=c-3209&sub3=777"
+        },
+        {
+          "id": 26,
+          "name": "1XBET",
+          "sub2": "1265",
+          "countries": ["All countries"],
+          "logo": "logo-1xbet-742023447_1668642977.webp",
+          "logo_light": "logo-1xbet-755069436_1668642977.webp",
+          "bonuses": {
+            "rate": "100%",
+            "amount": "500\u20ac",
+            "country": "Default",
+            "free_spins": "150",
+            "welcome_bonus": "100% up to 1500\u20ac + 150 free spins"
+          },
+          "domain_id": 1,
+          "wager": null,
+          "bonus_code": null,
+          "type": "Gambling",
+          "active": 1,
+          "created_at": "2022-11-16T23:56:17.000000Z",
+          "updated_at": "2023-09-21T10:25:47.000000Z",
+          "domain_url": "https:\/\/lgbktkr.pro\/5Dn45j",
+          "position": null,
+          "country_code": null,
+          "website_id": null,
+          "link": "https:\/\/lgbktkr.pro\/5Dn45j?sub1=12883&sub2=1265&sub3=777"
+        },
+        {
+          "id": 28,
+          "name": "1 win",
+          "sub2": "c-2126",
+          "countries": ["All countries"],
+          "logo": "logo-1win-379975572_1668688470.webp",
+          "logo_light": "logo-1win-2039977171_1668688470.webp",
+          "bonuses": {
+            "rate": "500%",
+            "amount": "1100$",
+            "country": "Default",
+            "free_spins": "",
+            "welcome_bonus": "500% up to 1100$"
+          },
+          "domain_id": 1,
+          "wager": null,
+          "bonus_code": null,
+          "type": "Gambling",
+          "active": 1,
+          "created_at": "2022-11-17T12:34:30.000000Z",
+          "updated_at": "2023-03-27T13:39:39.000000Z",
+          "domain_url": "https:\/\/lgbktkr.pro\/5Dn45j",
+          "position": null,
+          "country_code": null,
+          "website_id": null,
+          "link": "https:\/\/lgbktkr.pro\/5Dn45j?sub1=12883&sub2=c-2126&sub3=777"
+        },
+        {
+          "id": 45,
+          "name": "Pinnacle",
+          "sub2": "1367",
+          "countries": ["All countries"],
+          "logo": "logo-pinnacle-1707102561_1668690875.webp",
+          "logo_light": "logo-pinnacle-1761114701_1668690875.webp",
+          "bonuses": {
+            "rate": "",
+            "amount": "25$",
+            "country": "Default",
+            "free_spins": "20",
+            "welcome_bonus": ""
+          },
+          "domain_id": 1,
+          "wager": "x35",
+          "bonus_code": null,
+          "type": "Gambling",
+          "active": 1,
+          "created_at": "2022-11-17T13:14:35.000000Z",
+          "updated_at": "2022-11-17T13:14:35.000000Z",
+          "domain_url": "https:\/\/lgbktkr.pro\/5Dn45j",
+          "position": null,
+          "country_code": null,
+          "website_id": null,
+          "link": "https:\/\/lgbktkr.pro\/5Dn45j?sub1=12883&sub2=1367&sub3=777"
+        },
+        {
+          "id": 46,
+          "name": "Slothunter",
+          "sub2": "1517",
+          "countries": ["All countries"],
+          "logo": "logo-slothunter-1900031341_1668690958.webp",
+          "logo_light": "logo-slothunter-1638685428_1668690958.webp",
+          "bonuses": {
+            "rate": "100%",
+            "amount": "300\u20ac",
+            "country": "Default",
+            "free_spins": "200",
+            "welcome_bonus": "100% up to 300\u20ac + 200 free spins"
+          },
+          "domain_id": 1,
+          "wager": "x50",
+          "bonus_code": null,
+          "type": "Gambling",
+          "active": 1,
+          "created_at": "2022-11-17T13:15:58.000000Z",
+          "updated_at": "2022-11-17T13:15:58.000000Z",
+          "domain_url": "https:\/\/lgbktkr.pro\/5Dn45j",
+          "position": null,
+          "country_code": null,
+          "website_id": null,
+          "link": "https:\/\/lgbktkr.pro\/5Dn45j?sub1=12883&sub2=1517&sub3=777"
+        },
+        {
+          "id": 47,
+          "name": "1xBit",
+          "sub2": "1366",
+          "countries": ["All countries"],
+          "logo": "logo-1xbit-2018562685_1668691034.webp",
+          "logo_light": "logo-1xbit-1535556354_1668691034.webp",
+          "bonuses": {
+            "rate": "100%",
+            "amount": "7 BTC",
+            "country": "Default",
+            "free_spins": "",
+            "welcome_bonus": "100% up to 7 BTC"
+          },
+          "domain_id": 1,
+          "wager": null,
+          "bonus_code": null,
+          "type": "Gambling",
+          "active": 1,
+          "created_at": "2022-11-17T13:17:14.000000Z",
+          "updated_at": "2022-11-17T13:17:14.000000Z",
+          "domain_url": "https:\/\/lgbktkr.pro\/5Dn45j",
+          "position": null,
+          "country_code": null,
+          "website_id": null,
+          "link": "https:\/\/lgbktkr.pro\/5Dn45j?sub1=12883&sub2=1366&sub3=777"
+        },
+        {
+          "id": 50,
+          "name": "N1 Casino",
+          "sub2": "877",
+          "countries": ["All countries"],
+          "logo": "logo-n1casino-1786007497_1668691248.webp",
+          "logo_light": "logo-n1casino-1177297589_1668691248.webp",
+          "bonuses": {
+            "rate": "100%",
+            "amount": "400\u20ac",
+            "country": "Default",
+            "free_spins": "200",
+            "welcome_bonus": "100% up to 400\u20ac + 200 free spins"
+          },
+          "domain_id": 1,
+          "wager": "x50",
+          "bonus_code": null,
+          "type": "Gambling",
+          "active": 1,
+          "created_at": "2022-11-17T13:20:48.000000Z",
+          "updated_at": "2022-11-17T13:20:48.000000Z",
+          "domain_url": "https:\/\/lgbktkr.pro\/5Dn45j",
+          "position": null,
+          "country_code": null,
+          "website_id": null,
+          "link": "https:\/\/lgbktkr.pro\/5Dn45j?sub1=12883&sub2=877&sub3=777"
+        }
+      ]
+    },
+    "https://api.adkey-seo.com/api/website/get-games/gambling": [
+      {
+        "id": 13,
+        "name": "Wolf Treasure",
+        "image": "WolfTreasure-1140403128_1668560166.webp"
+      },
+      {
+        "id": 14,
+        "name": "Elvis Frog in Vegas",
+        "image": "ElvisFroginVegas-758925466_1668560202.webp"
+      },
+      {
+        "id": 15,
+        "name": "Buffalo Power",
+        "image": "BuffaloPowerHoldandWin-469717483_1668560226.webp"
+      },
+      {
+        "id": 16,
+        "name": "15 Dragon Pearls",
+        "image": "15DragonPearlsHoldandWin-1509693812_1668560278.webp"
+      },
+      {
+        "id": 17,
+        "name": "Tiger Stone",
+        "image": "TigerStone-959308772_1668560311.webp"
+      },
+      {
+        "id": 18,
+        "name": "Wolf Power",
+        "image": "WolfPower-1682648373_1668560329.webp"
+      },
+      {
+        "id": 19,
+        "name": "Money Train",
+        "image": "MoneyTrain-960289712_1668560349.webp"
+      },
+      {
+        "id": 20,
+        "name": "Sun of Egypt 2",
+        "image": "SunOfEgypt2-947051192_1668560365.webp"
+      },
+      {
+        "id": 21,
+        "name": "Four Lucky Diamonds",
+        "image": "FourLuckyDiamonds-406239893_1668560386.webp"
+      },
+      {
+        "id": 22,
+        "name": "Ancient Giants",
+        "image": "AncientGiants-496399595_1668560403.webp"
+      },
+      {
+        "id": 23,
+        "name": "Legend of Cleopatra",
+        "image": "LegendofCleopatra-2138038163_1668560421.webp"
+      },
+      {
+        "id": 24,
+        "name": "Aztec Magic Deluxe",
+        "image": "AztecMagicDeluxe-171846254_1668560441.webp"
+      }
+    ],
+    "https://api.adkey-seo.com/api/website/get-payments/1046": [
+      {
+        "payment_id": 8,
+        "commission": "Free",
+        "processing_time": "Instant",
+        "min_dep": "10 kr",
+        "name": "Visa",
+        "image": "visa-726491328_1722361259.svg",
+        "type": "Credit Card",
+        "country": "World"
+      },
+      {
+        "payment_id": 6,
+        "commission": "Free",
+        "processing_time": "Instant",
+        "min_dep": "10 kr",
+        "name": "Mastercard",
+        "image": "mastercard-2141402863_1722361148.svg",
+        "type": "Credit Card",
+        "country": "World"
+      }
+    ],
+    "https://api.adkey-seo.com/api/website/get-providers/": [
+      {
+        "id": 1,
+        "name": "Atmosfera",
+        "image": "atmosfera-1642630229_1668558152.webp"
+      },
+      {
+        "id": 2,
+        "name": "Augustgaming",
+        "image": "augustgaming-1966783258_1668558175.webp"
+      },
+      {
+        "id": 3,
+        "name": "Authentic Gaming",
+        "image": "authenticgaming-1191252656_1668558211.webp"
+      },
+      {
+        "id": 4,
+        "name": "Belatra",
+        "image": "belatragames-1742792713_1668558241.webp"
+      },
+      {
+        "id": 5,
+        "name": "Bet2tech",
+        "image": "bet2tech-579512002_1668558273.webp"
+      },
+      {
+        "id": 6,
+        "name": "Betsoft Gaming",
+        "image": "betsoft-969916366_1668558292.webp"
+      },
+      {
+        "id": 7,
+        "name": "BGaming",
+        "image": "bgaming-426360141_1668558310.webp"
+      },
+      {
+        "id": 8,
+        "name": "Booming Games",
+        "image": "boominggames-379032359_1668558346.webp"
+      },
+      {
+        "id": 9,
+        "name": "Booongo",
+        "image": "booongo-1137323890_1668558375.webp"
+      },
+      {
+        "id": 10,
+        "name": "Casino Technology",
+        "image": "casinotechnology-1374128229_1668558411.webp"
+      },
+      {
+        "id": 11,
+        "name": "Evoplay",
+        "image": "evoplay-1600778471_1668558438.webp"
+      },
+      {
+        "id": 12,
+        "name": "Felixgaming",
+        "image": "felixgaming-523700422_1668558460.webp"
+      },
+      {
+        "id": 13,
+        "name": "Fugaso",
+        "image": "fugaso-278371710_1668558486.webp"
+      },
+      {
+        "id": 14,
+        "name": "Greenjade",
+        "image": "greenjade-1730939735_1668558509.webp"
+      },
+      {
+        "id": 15,
+        "name": "IGTech",
+        "image": "igtech-1540471599_1668558528.webp"
+      },
+      {
+        "id": 16,
+        "name": "Leander",
+        "image": "leander-1372988371_1668558572.webp"
+      },
+      {
+        "id": 17,
+        "name": "Lucky Streak",
+        "image": "luckystreak-1294988597_1668558595.webp"
+      },
+      {
+        "id": 18,
+        "name": "Mascot",
+        "image": "mascotgaming-1136341510_1668558619.webp"
+      },
+      {
+        "id": 19,
+        "name": "MrSlotty",
+        "image": "MrSlotty-1346201451_1668558647.webp"
+      },
+      {
+        "id": 20,
+        "name": "Nolimit",
+        "image": "nolimit-416509439_1668558666.webp"
+      },
+      {
+        "id": 21,
+        "name": "Nucleus Gaming",
+        "image": "nucleusgaming-231073380_1668558689.webp"
+      },
+      {
+        "id": 22,
+        "name": "Onlyplay",
+        "image": "onlyplay-1102452507_1668558719.webp"
+      },
+      {
+        "id": 23,
+        "name": "Platipus",
+        "image": "platipus-1231860122_1668558743.webp"
+      },
+      {
+        "id": 24,
+        "name": "Playson",
+        "image": "playson-47858236_1668558766.webp"
+      },
+      {
+        "id": 25,
+        "name": "Quickspin",
+        "image": "quickspin-280816353_1668558800.webp"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "styles",
+      "name": "Стили",
+      "fields": [
+        {
+          "id": "bg",
+          "name": "Фон хедера",
+          "type": "color",
+          "default": "#f3f4f1"
+        },
+        {
+          "id": "lang-select-color",
+          "name": "Цвет выбора языка",
+          "type": "color",
+          "default": "#222829"
+        },
+        {
+          "id": "bg-light",
+          "name": "Фон 1",
+          "description": "Для блоков Advantages, History...",
+          "type": "color",
+          "default": "#25ac61"
+        },
+        {
+          "id": "welcome-bonus-bg",
+          "name": "Фон Welcome Bonus",
+          "description": "Для блока Welcome Bonus",
+          "type": "color",
+          "default": "#deeadf"
+        },
+        {
+          "id": "top-games-hover-fg",
+          "name": "Текст Games Hover",
+          "description": "Для блока Games Hover",
+          "type": "color",
+          "default": "#deeadf"
+        },
+        {
+          "id": "main-bg",
+          "name": "Фон 2",
+          "description": "Для блоков Top Casino, Bonuses...",
+          "type": "color",
+          "default": "#f3f4f1"
+        },
+        {
+          "id": "text",
+          "name": "Текст 1",
+          "description": "Под Фон 1",
+          "type": "color",
+          "default": "#222829"
+        },
+        {
+          "id": "text-black",
+          "name": "Текст 2",
+          "description": "Под Фон 2 и кнопки",
+          "type": "color",
+          "default": "#ffffff"
+        },
+        {
+          "id": "table-head",
+          "name": "Фон Заголовока таблицы",
+          "type": "color",
+          "default": "#25ac61"
+        },
+        {
+          "id": "text-head",
+          "name": "Текст заголовка таблицы",
+          "type": "color",
+          "default": "#ffffff"
+        },
+        {
+          "id": "hero-title-text",
+          "name": "Текст заголовка хиро офера",
+          "type": "color",
+          "default": "#222829"
+        },
+        {
+          "id": "welcome-bonus-text",
+          "name": "Текст абзаца хиро офера",
+          "type": "color",
+          "default": "#fb333d"
+        },
+        {
+          "id": "yellow",
+          "name": "Цвет вторичной кнопки",
+          "type": "color",
+          "default": "#17d26a"
+        },
+        {
+          "id": "yellow-button",
+          "name": "Цвет основной кнопки",
+          "type": "color",
+          "default": "#fb333d"
+        },
+        {
+          "id": "button-text",
+          "name": "Текст кнопки",
+          "type": "color",
+          "default": "#ffffff"
+        },
+        {
+          "id": "border-color",
+          "name": "Цвет границы в блоке Advantages",
+          "type": "color",
+          "default": "#efefdc"
+        },
+        {
+          "id": "casino-cards",
+          "name": "Фон карточки казино (ховер)",
+          "type": "color",
+          "default": "#deeadf"
+        },
+        {
+          "id": "bonus-border-head",
+          "name": "Блок Bonus цвет границ в заголовке таблицы",
+          "type": "color",
+          "default": "#efefdc"
+        },
+        {
+          "id": "bonus-border",
+          "name": "Блок Bonus цвет границ в таблице",
+          "type": "color",
+          "default": "#000033"
+        },
+        {
+          "id": "pay-back",
+          "name": "Payment Methods фон строк таблицы",
+          "type": "color",
+          "default": "#deeadf"
+        },
+        {
+          "id": "providers-back",
+          "name": "Software Providers фон",
+          "type": "color",
+          "default": "#77d09f"
+        },
+        {
+          "id": "faq-label",
+          "name": "FAQ цвет строки",
+          "type": "color",
+          "default": "#deeadf"
+        },
+        {
+          "id": "bg-footer",
+          "name": "Фон футера",
+          "type": "color",
+          "default": "#25ac61"
+        },
+        {
+          "id": "copyright",
+          "name": "Авторское право цвет текста",
+          "type": "color",
+          "default": "#e7e7d5"
+        },
+        {
+          "id": "starColor",
+          "name": "Цвет иконки звезды",
+          "type": "color",
+          "default": "#17d26a"
+        },
+        {
+          "id": "baseFont",
+          "name": "Основной шрифт",
+          "type": "font",
+          "options": [
+            { "value": "Inter", "label": "Inter" },
+            { "value": "Roboto", "label": "Roboto" },
+            { "value": "Open Sans", "label": "Open Sans" }
+          ],
+          "description": "Основной шрифт страницы",
+          "allowCustom": true,
+          "default": "Roboto"
+        },
+        {
+          "id": "primaryFont",
+          "name": "Акцентный шрифт",
+          "type": "font",
+          "options": [
+            { "value": "Inter", "label": "Inter" },
+            { "value": "Roboto", "label": "Roboto" },
+            { "value": "Open Sans", "label": "Open Sans" }
+          ],
+          "description": "Акцентный шрифт страницы",
+          "allowCustom": true,
+          "default": "Inter"
+        }
+      ]
+    },
+    {
+      "id": "seo",
+      "name": "SEO Information",
+      "fields": [
+        {
+          "id": "name",
+          "name": "Casino Name",
+          "type": "text",
+          "description": "The name of the casino",
+          "default": "Paf Casino Sverige"
+        },
+        {
+          "id": "title",
+          "name": "Page Title",
+          "type": "text",
+          "description": "The main title of the page",
+          "default": "Paf Casino Sverige: Licensierat kasino med bonusar och coola spel"
+        },
+        {
+          "id": "description",
+          "name": "Meta Description",
+          "type": "textarea",
+          "description": "The meta description for SEO",
+          "default": "Paf Casino Sweden erbjuder snabba uttag, satsningsfria bonusar, ett brett urval av spel, säkra insättningar och uttag. Spela med komfort och säkerhet och glöm inte att hämta din bonus!"
+        },
+        {
+          "id": "canonical",
+          "name": "Canonical URL",
+          "type": "text",
+          "description": "The canonical URL for the page",
+          "default": "#"
+        },
+        {
+          "id": "ogImage",
+          "name": "OG Image",
+          "type": "image",
+          "description": "The Open Graph image URL",
+          "default": "https://paf-casino-online.com/images/og_image.webp"
+        },
+        {
+          "id": "ogImageWidth",
+          "name": "OG Image Width",
+          "type": "number",
+          "description": "The Open Graph image width",
+          "default": 1200
+        },
+        {
+          "id": "ogImageHeight",
+          "name": "OG Image Height",
+          "type": "number",
+          "description": "The Open Graph image height",
+          "default": 630
+        },
+        {
+          "id": "twitterSite",
+          "name": "Twitter Site",
+          "type": "text",
+          "description": "The Twitter site handle",
+          "default": "@pafcasino"
+        },
+        {
+          "id": "favicon",
+          "name": "Favicon",
+          "type": "image",
+          "description": "The favicon",
+          "default": "https://paf-casino-online.com/favicon.ico"
+        },
+        {
+          "id": "keywords",
+          "name": "Keywords",
+          "type": "text",
+          "description": "The page keywords",
+          "default": "casino, online casino, gambling, slots, table games"
+        }
+      ]
+    },
+    {
+      "id": "icons",
+      "name": "Icons",
+      "fields": [
+        {
+          "id": "icon192",
+          "name": "Icon 192x192",
+          "type": "image",
+          "description": "192x192 icon URL",
+          "default": "https://paf-casino-online.com/icons/icon-192x192.webp"
+        }
+      ]
+    },
+    {
+      "id": "header",
+      "name": "Header Section",
+      "fields": [
+        {
+          "id": "logo",
+          "name": "Logo Image",
+          "type": "image",
+          "description": "The main logo image",
+          "default": "https://paf-casino-online.com/_next/static/media/logo.9568bf57.svg"
+        },
+        {
+          "id": "logoAlt",
+          "name": "Logo Alt Text",
+          "type": "text",
+          "description": "The alt text for the logo",
+          "default": "Paf Casino Sverige Logo"
+        }
+      ]
+    },
+    {
+      "id": "nav",
+      "name": "Navigation",
+      "fields": [
+        {
+          "id": "signUp",
+          "name": "Sign Up Text",
+          "type": "text",
+          "description": "Text for the sign up button",
+          "default": "Sign Up"
+        },
+        {
+          "id": "playNow",
+          "name": "Play Now Text",
+          "type": "text",
+          "description": "Text for the play now button",
+          "default": "Play Now"
+        }
+      ]
+    },
+    {
+      "id": "hero",
+      "name": "Hero Section",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Hero Title",
+          "type": "text",
+          "description": "The main hero section title",
+          "default": "Welcome Bonus"
+        },
+        {
+          "id": "textDesktop",
+          "name": "Desktop Text",
+          "type": "text",
+          "description": "Text shown on desktop",
+          "default": "Exclusive welcome offer of"
+        },
+        {
+          "id": "textMobile",
+          "name": "Mobile Text",
+          "type": "text",
+          "description": "Text shown on mobile",
+          "default": "Exclusive welcome bonus of"
+        },
+        {
+          "id": "playGame",
+          "name": "Play Game Text",
+          "type": "text",
+          "description": "Text for play game button",
+          "default": "Play game"
+        },
+        {
+          "id": "claimBonus",
+          "name": "Claim Bonus Text",
+          "type": "text",
+          "description": "Text for claim bonus button",
+          "default": "Claim Bonus"
+        },
+        {
+          "id": "image",
+          "name": "Hero Image",
+          "type": "image",
+          "description": "The hero section image",
+          "default": "https://paf-casino-online.com/images/hero-group.webp"
+        },
+        {
+          "id": "mobileImage",
+          "name": "Mobile Hero Image",
+          "type": "image",
+          "description": "The hero section mobile image",
+          "default": "https://paf-casino-online.com/images/hero-mobile.webp"
+        }
+      ]
+    },
+    {
+      "id": "topCasino",
+      "name": "Top Casino Section",
+      "fields": [
+        {
+          "id": "topCasinoButtonText",
+          "name": "Top Casino Button Text",
+          "type": "text",
+          "description": "Text for top casino buttons",
+          "default": "Claim Bonus"
+        },
+        {
+          "id": "title",
+          "name": "Section Title",
+          "type": "text",
+          "description": "The title of the top casino section",
+          "default": "Top Casino"
+        },
+        {
+          "id": "allCasino",
+          "name": "All Casino Text",
+          "type": "text",
+          "description": "Text for all casino button",
+          "default": "All Casino"
+        },
+        {
+          "id": "welcomeBonusText",
+          "name": "Welcome Bonus Text",
+          "type": "text",
+          "description": "Text for welcome bonus",
+          "default": "Welcome bonus"
+        }
+      ]
+    },
+    {
+      "id": "bonusDetails",
+      "name": "Bonus Details Section",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Section Title",
+          "type": "text",
+          "description": "The title of the bonus details section",
+          "default": "Bonus Details"
+        },
+        {
+          "id": "getBonusButtonText",
+          "name": "Get Bonus Button Text",
+          "type": "text",
+          "description": "Text for get bonus button",
+          "default": "Get Bonus"
+        },
+        {
+          "id": "maximumAmountText",
+          "name": "Maximum Amount Text",
+          "type": "text",
+          "default": "Maximum amount"
+        },
+        {
+          "id": "wagerText",
+          "name": "Wager Text",
+          "type": "text",
+          "default": "Wager"
+        },
+        {
+          "id": "bonusCodeText",
+          "name": "Bonus Code Text",
+          "type": "text",
+          "default": "Bonus Code"
+        },
+        {
+          "id": "casino",
+          "name": "Casino Text",
+          "type": "text",
+          "description": "Text for casino column",
+          "default": "Casino"
+        },
+        {
+          "id": "bonuses",
+          "name": "Bonuses Text",
+          "type": "text",
+          "description": "Text for bonuses column",
+          "default": "Bonuses"
+        },
+        {
+          "id": "rate",
+          "name": "Rate Text",
+          "type": "text",
+          "description": "Text for rate column",
+          "default": "Rate"
+        },
+        {
+          "id": "freeSpins",
+          "name": "Free Spins Text",
+          "type": "text",
+          "description": "Text for free spins column",
+          "default": "Free Spins"
+        },
+        {
+          "id": "moreInfo",
+          "name": "More Info Text",
+          "type": "text",
+          "description": "Text for more info column",
+          "default": "More Info"
+        },
+        {
+          "id": "get",
+          "name": "Get Text",
+          "type": "text",
+          "description": "Text for get column",
+          "default": "Get"
+        },
+        {
+          "id": "refresh",
+          "name": "Refresh Text",
+          "type": "text",
+          "description": "Text for refresh button",
+          "default": "Refresh"
+        }
+      ]
+    },
+    {
+      "id": "advantages",
+      "name": "Advantages Section",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Section Title",
+          "type": "text",
+          "description": "The title of the advantages section",
+          "default": "Advantages"
+        },
+        {
+          "id": "advantagesBeforeText",
+          "name": "Advantages Before Text",
+          "type": "textarea",
+          "description": "Text for advantages before list",
+          "default": "Some text before list"
+        },
+        {
+          "id": "items",
+          "name": "Advantage Items",
+          "type": "array",
+          "description": "List of advantages",
+          "itemType": {
+            "type": "text",
+            "name": "Advantage Item",
+            "description": "A single advantage item",
+            "default": "Legal and safe casino"
+          },
+          "default": [
+            "Legal and safe casino",
+            "Quick registration",
+            "Data protection",
+            "No wagering bonus",
+            "Wide range of games"
+          ]
+        },
+        {
+          "id": "advantagesAfterText",
+          "name": "Advantages After Text",
+          "type": "textarea",
+          "description": "Text for advantages after list",
+          "default": "Some text after list"
+        },
+        {
+          "id": "knowMore",
+          "name": "Know More Text",
+          "type": "text",
+          "description": "Text for know more button",
+          "default": "Know more"
+        },
+        {
+          "id": "appTitle",
+          "name": "App Title",
+          "type": "text",
+          "description": "Title for the app section",
+          "default": "Mobile App"
+        },
+        {
+          "id": "mobile",
+          "name": "Mobile Image",
+          "type": "image",
+          "description": "URL for the mobile app image",
+          "default": "https://paf-casino-online.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmobile.cd4410fa.webp&w=384&q=75"
+        },
+        {
+          "id": "mobileAlt",
+          "name": "Mobile Image Alt",
+          "type": "text",
+          "description": "Alt text for the mobile app image",
+          "default": "Mobile App"
+        },
+        {
+          "id": "mobileGooglePlayImageTitle",
+          "name": "Mobile Google Play Image title",
+          "type": "text",
+          "default": "Mobile App"
+        },
+        {
+          "id": "mobileIosImageTitle",
+          "name": "Mobile Ios Image Title",
+          "type": "text",
+          "default": "Mobile App"
+        }
+      ]
+    },
+    {
+      "id": "games",
+      "name": "Games Section",
+      "fields": [
+        {
+          "id": "playNowText",
+          "name": "Play Now Text",
+          "type": "text",
+          "description": "Text for play now button",
+          "default": "Play now"
+        },
+        {
+          "id": "title",
+          "name": "Section Title",
+          "type": "text",
+          "description": "The title of the games section",
+          "default": "Popular Games"
+        },
+        {
+          "id": "allGames",
+          "name": "All Games Text",
+          "type": "text",
+          "description": "Text for all games button",
+          "default": "All Games"
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "name": "About Section",
+      "fields": [
+        {
+          "id": "history",
+          "name": "History",
+          "type": "object",
+          "description": "History section content",
+          "fields": [
+            {
+              "id": "title",
+              "name": "Title",
+              "type": "text",
+              "description": "History section title",
+              "default": "History"
+            },
+            {
+              "id": "description1",
+              "name": "Description 1",
+              "type": "textarea",
+              "description": "First paragraph of history",
+              "default": "First paragraph of history"
+            },
+            {
+              "id": "items",
+              "name": "History Items",
+              "type": "array",
+              "description": "List of history items",
+              "itemType": {
+                "type": "text",
+                "name": "History Item",
+                "description": "A single history item",
+                "default": "History item 1"
+              },
+              "default": ["History item 1", "History item 2"]
+            },
+            {
+              "id": "description2",
+              "name": "Description 2",
+              "type": "textarea",
+              "description": "Second paragraph of history",
+              "default": "Second paragraph of history"
+            },
+            {
+              "id": "image",
+              "name": "History Image",
+              "type": "image",
+              "description": "URL for history image",
+              "default": "https://paf-casino-online.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FMacBook-Pro.b62d8565.webp&w=750&q=75"
+            },
+            {
+              "id": "imageSizeModifier",
+              "name": "History Image Scale Modifier",
+              "type": "number",
+              "description": "Size modifier of support image",
+              "default": 0
+            },
+            {
+              "id": "imageYModifier",
+              "name": "History Image Y Position Modifier",
+              "type": "number",
+              "default": 0
+            },
+            {
+              "id": "imageXModifier",
+              "name": "History Image X Position Modifier",
+              "type": "number",
+              "default": 0
+            },
+            {
+              "id": "imageAlt",
+              "name": "History Image Alt",
+              "type": "text",
+              "description": "Alt text for history image",
+              "default": "History"
+            },
+            {
+              "id": "description3",
+              "name": "Description 3",
+              "type": "textarea",
+              "description": "Third paragraph of history",
+              "default": "Third paragraph of history"
+            }
+          ]
+        },
+        {
+          "id": "connect",
+          "name": "Connect",
+          "type": "object",
+          "description": "Connect section content",
+          "fields": [
+            {
+              "id": "title",
+              "name": "Title",
+              "type": "text",
+              "description": "Connect section title",
+              "default": "Connect"
+            },
+            {
+              "id": "description1",
+              "name": "Description 1",
+              "type": "textarea",
+              "description": "First paragraph of connect",
+              "default": "First paragraph of connect"
+            },
+            {
+              "id": "items",
+              "name": "Connect Items",
+              "type": "array",
+              "description": "List of connect items",
+              "itemType": {
+                "type": "text",
+                "name": "Connect Item",
+                "description": "A single connect item",
+                "default": "Connect item 1"
+              },
+              "default": ["Connect item 1", "Connect item 2"]
+            },
+            {
+              "id": "description2",
+              "name": "Description 2",
+              "type": "textarea",
+              "description": "Second paragraph of connect",
+              "default": "Second paragraph of connect"
+            }
+          ]
+        },
+        {
+          "id": "deposit1",
+          "name": "Deposit 1",
+          "type": "object",
+          "description": "First deposit section content",
+          "fields": [
+            {
+              "id": "title",
+              "name": "Title",
+              "type": "text",
+              "description": "First deposit section title",
+              "default": "Deposit 1"
+            },
+            {
+              "id": "description1",
+              "name": "Description 1",
+              "type": "textarea",
+              "description": "First paragraph of deposit 1",
+              "default": "First paragraph of deposit 1"
+            },
+            {
+              "id": "items",
+              "name": "Deposit 1 Items",
+              "type": "array",
+              "description": "List of deposit 1 items",
+              "itemType": {
+                "type": "text",
+                "name": "Deposit 1 Item",
+                "description": "A single deposit 1 item",
+                "default": "Deposit 1 item 1"
+              },
+              "default": ["Deposit 1 item 1", "Deposit 1 item 2"]
+            },
+            {
+              "id": "description2",
+              "name": "Description 2",
+              "type": "textarea",
+              "description": "Second paragraph of deposit 1",
+              "default": "Second paragraph of deposit 1"
+            }
+          ]
+        },
+        {
+          "id": "deposit2",
+          "name": "Deposit 2",
+          "type": "object",
+          "description": "Second deposit section content",
+          "fields": [
+            {
+              "id": "title",
+              "name": "Title",
+              "type": "text",
+              "description": "Second deposit section title",
+              "default": "Deposit 2"
+            },
+            {
+              "id": "description1",
+              "name": "Description 1",
+              "type": "textarea",
+              "description": "First paragraph of deposit 2",
+              "default": "First paragraph of deposit 2"
+            },
+            {
+              "id": "items",
+              "name": "Deposit 2 Items",
+              "type": "array",
+              "description": "List of deposit 2 items",
+              "itemType": {
+                "type": "text",
+                "name": "Deposit 2 Item",
+                "description": "A single deposit 2 item",
+                "default": "Deposit 2 item 1"
+              },
+              "default": ["Deposit 2 item 1", "Deposit 2 item 2"]
+            },
+            {
+              "id": "description2",
+              "name": "Description 2",
+              "type": "textarea",
+              "description": "Second paragraph of deposit 2",
+              "default": "Second paragraph of deposit 2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "payMethod",
+      "name": "Payment Method Section",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Section Title",
+          "type": "text",
+          "description": "The title of the payment method section",
+          "default": "Payment Methods"
+        },
+        {
+          "id": "paymentMethodsButtonText",
+          "name": "Payment Methods Button Text",
+          "type": "text",
+          "default": "Deposit"
+        },
+        {
+          "id": "method",
+          "name": "Method Text",
+          "type": "text",
+          "description": "Text for method column",
+          "default": "Method"
+        },
+        {
+          "id": "type",
+          "name": "Type Text",
+          "type": "text",
+          "description": "Text for type column",
+          "default": "Type"
+        },
+        {
+          "id": "country",
+          "name": "Country Text",
+          "type": "text",
+          "description": "Text for country column",
+          "default": "Country"
+        },
+        {
+          "id": "commission",
+          "name": "Commission Text",
+          "type": "text",
+          "description": "Text for commission column",
+          "default": "Commission"
+        },
+        {
+          "id": "processingTime",
+          "name": "Processing Time Text",
+          "type": "text",
+          "description": "Text for processing time column",
+          "default": "Processing Time"
+        },
+        {
+          "id": "minimumDeposit",
+          "name": "Minimum Deposit Text",
+          "type": "text",
+          "description": "Text for minimum deposit column",
+          "default": "Minimum Deposit"
+        },
+        {
+          "id": "deposit",
+          "name": "Deposit Text",
+          "type": "text",
+          "description": "Text for deposit column",
+          "default": "Deposit"
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "name": "Security Section",
+      "fields": [
+        {
+          "id": "title1",
+          "name": "First Title",
+          "type": "text",
+          "description": "First security section title",
+          "default": "Security Title 1"
+        },
+        {
+          "id": "description1",
+          "name": "First Description",
+          "type": "textarea",
+          "description": "First security section description",
+          "default": "Security description 1"
+        },
+        {
+          "id": "title2",
+          "name": "Second Title",
+          "type": "text",
+          "description": "Second security section title",
+          "default": "Security Title 2"
+        },
+        {
+          "id": "description2",
+          "name": "Second Description",
+          "type": "textarea",
+          "description": "Second security section description",
+          "default": "Security description 2"
+        }
+      ]
+    },
+    {
+      "id": "softwareProviders",
+      "name": "Software Providers Section",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Section Title",
+          "type": "text",
+          "description": "The title of the software providers section",
+          "default": "Software Providers"
+        }
+      ]
+    },
+    {
+      "id": "application",
+      "name": "Application Section",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Section Title",
+          "type": "text",
+          "description": "The title of the application section",
+          "default": "Mobile Application"
+        },
+        {
+          "id": "description1",
+          "name": "Description",
+          "type": "textarea",
+          "description": "Application section description",
+          "default": "Application description"
+        },
+        {
+          "id": "image",
+          "name": "Application Image",
+          "type": "image",
+          "description": "URL for application image",
+          "default": "https://paf-casino-online.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmobile-app.5de21383.webp&w=384&q=75"
+        },
+        {
+          "id": "imageSizeModifier",
+          "name": "Application Image Scale Modifier",
+          "type": "number",
+          "description": "Application modifier of support image",
+          "default": 0
+        },
+        {
+          "id": "imageYModifier",
+          "name": "Application Image Y Position Modifier",
+          "type": "number",
+          "default": 0
+        },
+        {
+          "id": "imageXModifier",
+          "name": "Application Image X Position Modifier",
+          "type": "number",
+          "default": 0
+        },
+        {
+          "id": "imageAlt",
+          "name": "Application Image Alt",
+          "type": "text",
+          "description": "Alt text for application image",
+          "default": "Mobile Application"
+        }
+      ]
+    },
+    {
+      "id": "idioma",
+      "name": "Language Section",
+      "fields": [
+        {
+          "id": "title1",
+          "name": "First Title",
+          "type": "text",
+          "description": "First language section title",
+          "default": "Language Title 1"
+        },
+        {
+          "id": "description1",
+          "name": "First Description",
+          "type": "textarea",
+          "description": "First language section description",
+          "default": "Language description 1"
+        },
+        {
+          "id": "title2",
+          "name": "Second Title",
+          "type": "text",
+          "description": "Second language section title",
+          "default": "Language Title 2"
+        },
+        {
+          "id": "description2",
+          "name": "Second Description",
+          "type": "textarea",
+          "description": "Second language section description",
+          "default": "Language description 2"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "name": "FAQ Section",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Section Title",
+          "type": "text",
+          "description": "The title of the FAQ section",
+          "default": "Frequently Asked Questions"
+        },
+        {
+          "id": "items",
+          "name": "FAQ Items",
+          "type": "array",
+          "description": "List of FAQ items",
+          "itemType": {
+            "type": "object",
+            "name": "FAQ Item",
+            "description": "A single FAQ item",
+            "fields": [
+              {
+                "id": "title",
+                "name": "Question",
+                "type": "text",
+                "description": "The FAQ question",
+                "default": "FAQ Question"
+              },
+              {
+                "id": "answer",
+                "name": "Answer",
+                "type": "textarea",
+                "description": "The FAQ answer",
+                "default": "FAQ Answer"
+              }
+            ]
+          },
+          "default": [
+            {
+              "title": "FAQ Question 1",
+              "answer": "FAQ Answer 1"
+            },
+            {
+              "title": "FAQ Question 2",
+              "answer": "FAQ Answer 2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "availableGames",
+      "name": "Available Games Section",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Section Title",
+          "type": "text",
+          "description": "The title of the available games section",
+          "default": "Available Games"
+        },
+        {
+          "id": "description",
+          "name": "Description",
+          "type": "textarea",
+          "description": "Available games section description",
+          "default": "Available games description"
+        },
+        {
+          "id": "column1",
+          "name": "First Column",
+          "type": "array",
+          "description": "First column of available games",
+          "itemType": {
+            "type": "object",
+            "name": "Game Item",
+            "description": "A single game item",
+            "fields": [
+              {
+                "id": "title",
+                "name": "Title",
+                "type": "text",
+                "description": "The game title",
+                "default": "Game Title"
+              },
+              {
+                "id": "description",
+                "name": "Description",
+                "type": "textarea",
+                "description": "The game description",
+                "default": "Game description"
+              }
+            ]
+          },
+          "default": [
+            {
+              "title": "Game 1",
+              "description": "Game 1 description"
+            }
+          ]
+        },
+        {
+          "id": "column2",
+          "name": "Second Column",
+          "type": "array",
+          "description": "Second column of available games",
+          "itemType": {
+            "type": "object",
+            "name": "Game Item",
+            "description": "A single game item",
+            "fields": [
+              {
+                "id": "title",
+                "name": "Title",
+                "type": "text",
+                "description": "The game title",
+                "default": "Game Title"
+              },
+              {
+                "id": "description",
+                "name": "Description",
+                "type": "textarea",
+                "description": "The game description",
+                "default": "Game description"
+              }
+            ]
+          },
+          "default": [
+            {
+              "title": "Game 2",
+              "description": "Game 2 description"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "support",
+      "name": "Support Section",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Section Title",
+          "type": "text",
+          "description": "The title of the support section",
+          "default": "Support"
+        },
+        {
+          "id": "description1",
+          "name": "First Description",
+          "type": "textarea",
+          "description": "First support section description",
+          "default": "Support description 1"
+        },
+        {
+          "id": "items",
+          "name": "Support Items",
+          "type": "array",
+          "description": "List of support items",
+          "itemType": {
+            "type": "text",
+            "name": "Support Item",
+            "description": "A single support item",
+            "default": "Support item 1"
+          },
+          "default": ["Support item 1", "Support item 2"]
+        },
+        {
+          "id": "description2",
+          "name": "Second Description",
+          "type": "textarea",
+          "description": "Second support section description",
+          "default": "Support description 2"
+        },
+        {
+          "id": "image",
+          "name": "Support Image",
+          "type": "image",
+          "description": "URL for support image",
+          "default": "https://paf-casino-online.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsupport.cb9afcc0.webp&w=640&q=75"
+        },
+        {
+          "id": "imageSizeModifier",
+          "name": "Support Image Scale Modifier",
+          "type": "number",
+          "description": "Support modifier of support image",
+          "default": 0
+        },
+        {
+          "id": "imageYModifier",
+          "name": "Support Image Y Position Modifier",
+          "type": "number",
+          "default": 0
+        },
+        {
+          "id": "imageXModifier",
+          "name": "Support Image X Position Modifier",
+          "type": "number",
+          "default": 0
+        },
+        {
+          "id": "imageAlt",
+          "name": "Support Image Alt",
+          "type": "text",
+          "description": "Alt text for support image",
+          "default": "Support"
+        }
+      ]
+    },
+    {
+      "id": "bonuses",
+      "name": "Bonuses Section",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Section Title",
+          "type": "text",
+          "description": "The title of the bonuses section",
+          "default": "Bonuses"
+        },
+        {
+          "id": "description",
+          "name": "Description",
+          "type": "textarea",
+          "description": "Bonuses section description",
+          "default": "Bonuses description"
+        },
+        {
+          "id": "column1",
+          "name": "First Column",
+          "type": "array",
+          "description": "First column of bonuses",
+          "itemType": {
+            "type": "object",
+            "name": "Bonus Item",
+            "description": "A single bonus item",
+            "fields": [
+              {
+                "id": "title",
+                "name": "Title",
+                "type": "text",
+                "description": "The bonus title",
+                "default": "Bonus Title"
+              },
+              {
+                "id": "description",
+                "name": "Description",
+                "type": "textarea",
+                "description": "The bonus description",
+                "default": "Bonus description"
+              }
+            ]
+          },
+          "default": [
+            {
+              "title": "Bonus 1",
+              "description": "Bonus 1 description"
+            }
+          ]
+        },
+        {
+          "id": "column2",
+          "name": "Second Column",
+          "type": "array",
+          "description": "Second column of bonuses",
+          "itemType": {
+            "type": "object",
+            "name": "Bonus Item",
+            "description": "A single bonus item",
+            "fields": [
+              {
+                "id": "title",
+                "name": "Title",
+                "type": "text",
+                "description": "The bonus title",
+                "default": "Bonus Title"
+              },
+              {
+                "id": "description",
+                "name": "Description",
+                "type": "textarea",
+                "description": "The bonus description",
+                "default": "Bonus description"
+              }
+            ]
+          },
+          "default": [
+            {
+              "title": "Bonus 2",
+              "description": "Bonus 2 description"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prosAndCons",
+      "name": "Pros and Cons Section",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Section Title",
+          "type": "text",
+          "description": "The title of the pros and cons section",
+          "default": "Pros and Cons"
+        },
+        {
+          "id": "description",
+          "name": "Description",
+          "type": "textarea",
+          "description": "Pros and cons section description",
+          "default": "Pros and cons description"
+        },
+        {
+          "id": "pros",
+          "name": "Pros",
+          "type": "object",
+          "description": "Pros section content",
+          "fields": [
+            {
+              "id": "title",
+              "name": "Title",
+              "type": "text",
+              "description": "Pros section title",
+              "default": "Pros"
+            },
+            {
+              "id": "items",
+              "name": "Pros Items",
+              "type": "array",
+              "description": "List of pros items",
+              "itemType": {
+                "type": "text",
+                "name": "Pros Item",
+                "description": "A single pros item",
+                "default": "Pros item 1"
+              },
+              "default": ["Pros item 1", "Pros item 2"]
+            }
+          ]
+        },
+        {
+          "id": "cons",
+          "name": "Cons",
+          "type": "object",
+          "description": "Cons section content",
+          "fields": [
+            {
+              "id": "title",
+              "name": "Title",
+              "type": "text",
+              "description": "Cons section title",
+              "default": "Cons"
+            },
+            {
+              "id": "items",
+              "name": "Cons Items",
+              "type": "array",
+              "description": "List of cons items",
+              "itemType": {
+                "type": "text",
+                "name": "Cons Item",
+                "description": "A single cons item",
+                "default": "Cons item 1"
+              },
+              "default": ["Cons item 1", "Cons item 2"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "footer",
+      "name": "Footer Section",
+      "fields": [
+        {
+          "id": "logo",
+          "name": "Лого",
+          "type": "image",
+          "description": "Логотип в футере",
+          "default": "https://paf-casino-online.com/images/og_image.webp"
+        },
+        {
+          "id": "copyright",
+          "name": "Copyright Text",
+          "type": "text",
+          "description": "The copyright text",
+          "default": "Paf Casino"
+        }
+      ]
+    }
+  ],
+  "additionalBuildFiles": [
+    "index.css",
+    "normalize.css",
+    "index.js",
+    "manifest.json"
+  ]
+}
